@@ -1,0 +1,1350 @@
+[
+  {
+    "filename": "On_Explaining_(Large)_Language_Models_For_Code_Using_Global_Code-Based_Explanations.txt",
+    "content": "On Explaining (Large) Language Models For Code\nUsing Global Code-Based Explanations\nDavid N. Palacio, Dipin Khati∗, Daniel Rodriguez-Cardenas∗, Alejandro Velasco∗, Denys Poshyvanyk\n∗Authors contributed equally\nAbstract —In recent years, Language Models for Code\n(LM4Code) have significantly changed the landscape of software\nengineering (SE) on downstream tasks, such as code generation,\nby making software development more efficient. Therefore, a\ngrowing interest has emerged in further evaluating these Language\nModels to homogenize the quality assessment of generated code.\nAs the current evaluation process can significantly overreact\non accuracy-based metrics, practitioners often seek methods to\ninterpret LM4Code outputs beyond canonical benchmarks. While\nthe majority of research reports on code generation effectiveness\nin terms of expected ground truth, scant attention has been\npaid to LLMs’ explanations. In essence, the decision-making\nprocess to generate code is hard to interpret. To b...",
+    "title": "On Explaining (Large) Language Models For Code",
+    "authors": [
+      "making software development more efficient. Therefore",
+      "a"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Gumbel-Softmax_Flow_Matching_with_Straight-Through_Guidance_for_Controllable_Biological_Sequence_Generation.txt",
+    "content": "Gumbel-Softmax Flow Matching\nwith Straight-Through Guidance for Controllable\nBiological Sequence Generation\nSophia Tang1,2, Yinuo Zhang1,3, Alexander Tong4,5, Pranam Chatterjee1,6,7,†\n1Department of Biomedical Engineering, Duke University\n2Management and Technology Program, University of Pennsylvania\n3Center of Computational Biology, Duke-NUS Medical School\n4Mila, Quebec AI Institute,5Université de Montréal\n6Department of Computer Science, Duke University\n7Department of Biostatistics and Bioinformatics, Duke University\n†Corresponding author: pranam.chatterjee@duke.edu\nAbstract\nFlow matching in the continuous simplex has emerged as a promising strategy\nfor DNA sequence design, but struggles to scale to higher simplex dimensions\nrequired for peptide and protein generation. We introduce Gumbel-Softmax\nFlow and Score Matching , a generative framework on the simplex based on a\nnovel Gumbel-Softmax interpolant with a time-dependent temperature. Using\nthis interpolant, we introduce Gumbel-Sof...",
+    "title": "Gumbel-Softmax Flow Matching",
+    "authors": [
+      "pranam.chatterjee@duke.edu"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Adiabatic_Fine-Tuning_of_Neural_Quantum_States_Enables_Detection_of_Phase_Transitions_in_Weight_Space.txt",
+    "content": "Accepted at the ICLR Workshop on Neural Network Weights as a New Data Modality 2025\nADIABATIC FINE-TUNING OF NEURAL QUANTUM\nSTATES ENABLES DETECTION OF PHASE TRANSI -\nTIONS IN WEIGHT SPACE\nVinicius Hernandes, Thomas Spriggs, Saqar Khaleefah & Eliska Greplova\nQuTech and Kavli Institute of Nanoscience\nDelft University of Technology\nDelft, Netherlands\nv.hernandes@tudelft.nl\nABSTRACT\nNeural quantum states (NQS) have emerged as a powerful tool for approximating\nquantum wavefunctions using deep learning. While these models achieve remark-\nable accuracy, understanding how they encode physical information remains an\nopen challenge. In this work, we introduce adiabatic fine-tuning, a scheme that\ntrains NQS across a phase diagram, leading to strongly correlated weight repre-\nsentations across different models. This correlation in weight space enables the\ndetection of phase transitions in quantum systems by analyzing the trained net-\nwork weights alone. We validate our approach on the transverse ...",
+    "title": "Accepted at the ICLR Workshop on Neural Network Weights as a New Data Modality 2025",
+    "authors": [
+      "analyzing the trained net-"
+    ],
+    "conference": "the ICLR Workshop on Neural Network Weights as a New Data Modality ",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Jailbreaking_the_Non-Transferable_Barrier_via_Test-Time_Data_Disguising.txt",
+    "content": "Jailbreaking the Non-Transferable Barrier via Test-Time Data Disguising\nYongli Xiang1, Ziming Hong1†, Lina Yao2,3, Dadong Wang2, Tongliang Liu1†\n1Sydney AI Centre, The University of Sydney\n2Data61, CSIRO3The University of New South Wales\nAbstract\nNon-transferable learning (NTL) has been proposed to pro-\ntect model intellectual property (IP) by creating a “non-\ntransferable barrier” to restrict generalization from autho-\nrized to unauthorized domains. Recently, well-designed at-\ntack, which restores the unauthorized-domain performance\nby fine-tuning NTL models on few authorized samples, high-\nlights the security risks of NTL-based applications. How-\never, such attack requires modifying model weights, thus\nbeing invalid in the black-box scenario. This raises a crit-\nical question: can we trust the security of NTL models\ndeployed as black-box systems? In this work, we reveal\nthe first loophole of black-box NTL models by proposing\na novel attack method (dubbed as JailNTL) to jailbreak\nthe ...",
+    "title": "Jailbreaking the Non-Transferable Barrier via Test-Time Data Disguising",
+    "authors": [
+      "creating a “non-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Sparse_Additive_Contextual_Bandits:_A_Nonparametric_Approach_for_Online_Decision-making_with_High-dimensional_Covariates.txt",
+    "content": "Sparse Additive Contextual Bandits: A Nonparametric\nApproach for Online Decision-making with\nHigh-dimensional Covariates\nWenjia Wang∗\nData Science and Analytics Thrust,\nThe Hong Kong University of Science and Technology (Guangzhou)\nDepartment of Mathematics,\nThe Hong Kong University of Science and Technology\nQingwen Zhang∗ †\nDivision of Emerging Interdisciplinary Areas,\nThe Hong Kong University of Science and Technology\nXiaowei Zhang∗\nDepartment of Industrial Engineering and Decision Analytics,\nThe Hong Kong University of Science and Technology\nAbstract\nPersonalized services are central to today’s digital landscape, where online decision-\nmaking is commonly formulated as contextual bandit problems. Two key challenges\nemerge in modern applications: high-dimensional covariates and the need for nonpara-\nmetric models to capture complex reward-covariate relationships. We address these\nchallenges by developing a contextual bandit algorithm based on sparse additive reward\nmodels in reproduci...",
+    "title": "Sparse Additive Contextual Bandits: A Nonparametric",
+    "authors": [
+      "developing a contextual bandit algorithm based on sparse additive reward"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Subgradient_Method_for_System_Identification_with_Non-Smooth_Objectives.txt",
+    "content": "Subgradient Method for System Identification with Non-Smooth\nObjectives\nBaturalp Yalcin and Javad Lavaei\nAbstract — This paper investigates a subgradient-based algo-\nrithm to solve the system identification problem for linear\ntime-invariant systems with non-smooth objectives. This is\nessential for robust system identification in safety-critical\napplications. While existing work provides theoretical exact\nrecovery guarantees using optimization solvers, the design of fast\nlearning algorithms with convergence guarantees for practical\nuse remains unexplored. We analyze the subgradient method in\nthis setting where the optimization problems to be solved change\nover time as new measurements are taken, and we establish\nlinear convergence results for both the best and Polyak step\nsizes after a burn-in period. Additionally, we characterize the\nasymptotic convergence of the best average sub-optimality gap\nunder diminishing and constant step sizes. Finally, we compare\nthe time complexity of standa...",
+    "title": "Subgradient Method for System Identification with Non-Smooth",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "A_New_Statistical_Model_of_Star_Speckles_for_Learning_to_Detect_and_Characterize_Exoplanets_in_Direct_Imaging_Observations.txt",
+    "content": "A New Statistical Model of Star Speckles for Learning to Detect and\nCharacterize Exoplanets in Direct Imaging Observations\nTh´eo Bodrito*1, Olivier Flasseur2, Julien Mairal3, Jean Ponce1, 4,\nMaud Langlois2, Anne-Marie Lagrange5, 6\n1D´epartement d’Informatique de l’ ´Ecole normale sup ´erieure (ENS-PSL, CNRS, Inria)\n2Universite Claude Bernard Lyon 1, Centre de Recherche Astrophysique de Lyon UMR 5574,\nENS de Lyon, CNRS, Villeurbanne, F-69622, France\n3Universit ´e Grenoble Alpes, Inria, CNRS, Grenoble INP, LJK\n4Courant Institute and Center for Data Science, New York University\n5Laboratoire d’ ´Etudes Spatiales et d’Instrumentation en Astrophysique, Observatoire de Paris,\nUniversit ´e PSL, Sorbonne Universit ´e, Universit ´e Paris Diderot\n6Universit ´e Grenoble Alpes, Institut de Plan ´etologie et d’Astrophysique de Grenoble\nAbstract\nThe search for exoplanets is an active field in astronomy,\nwith direct imaging as one of the most challenging meth-\nods due to faint exoplanet signals buried...",
+    "title": "A New Statistical Model of Star Speckles for Learning to Detect and",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Lie_Detector:_Unified_Backdoor_Detection_via_Cross-Examination_Framework.txt",
+    "content": "Lie Detector: Unified Backdoor Detection via Cross-Examination Framework\nXuan Wang\nwangxuan21d@nudt.edu.cnSiyuan Liang\nsiyuan96@nus.edu.sgDongping Liao\ndongpingliao@umac.mo\nHan Fang\nfanghan@nus.edu.sgAishan Liu\nliuaishan@buaa.edu.cnXiaochun Cao\ncaoxiaochun@mail.sysu.edu.cn\nYuliang Lu\npublicluyl@126.comChang Ee-Chien\nchangec@comp.nus.edu.sgXitong Gao\nxt.gao@siat.ac.cn\nAbstract\nInstitutions with limited data and computing resources often\noutsource model training to third-party providers in a semi-\nhonest setting, assuming adherence to prescribed training\nprotocols with pre-defined learning paradigm (e.g., super-\nvised or semi-supervised learning). However, this practice\ncan introduce severe security risks, as adversaries may poi-\nson the training data to embed backdoors into the resulting\nmodel. Existing detection approaches predominantly rely\non statistical analyses, which often fail to maintain univer-\nsally accurate detection accuracy across different learning\nparadigms. To address th...",
+    "title": "Lie Detector: Unified Backdoor Detection via Cross-Examination Framework",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Large_Language_Model_Compression_via_the_Nested_Activation-Aware_Decomposition.txt",
+    "content": "Large Language Model Compression via the\nNested Activation-Aware Decomposition\nJun Lu∗, Tianyi Xu, Bill Ding, David Li, Yu Kang†\nABSTRACT\nIn this paper, we tackle the critical challenge of compressing large language mod-\nels (LLMs) to facilitate their practical deployment and broader adoption. We in-\ntroduce a novel post-training compression paradigm that focuses on low-rank de-\ncomposition of LLM weights. Our analysis identifies two main challenges in this\ntask: the variability in LLM activation distributions and handling unseen activa-\ntions from different datasets and models.\nTo address these challenges, we propose a nested activation-aware framework\n(NSVD) for LLMs, a training-free approach designed to enhance the accuracy of\nlow-rank decompositions by managing activation outliers through transforming\nthe weight matrix based on activation distribution and the original weight matrix.\nThis method allows for the absorption of outliers into the transformed weight ma-\ntrix, improving de...",
+    "title": "Large Language Model Compression via the",
+    "authors": [
+      "managing activation outliers through transforming"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Fast_online_node_labeling_with_graph_subsampling.txt",
+    "content": "Fast online node labeling with graph subsampling\nYushen Huang yushen.huang@stonybrook.edu\nDepartment of Computer Science\nStony Brook University\nErtai Luo ertai.luo@stonybroook.edu\nDepartment of Computer Science\nStony Brook University\nReza Babenezhad\nMILA\nYifan Sun yifan.sun@stonybrook.edu\nDepartment of Computer Science\nStony Brook University\nAbstract\nLarge data applications rely on storing data in massive, sparse graphs with millions to\ntrillions of nodes. Graph-based methods, such as node prediction, aim for computational\nefficiency regardless of graph size. Techniques like localized approximate personalized page\nrank (APPR) solve sparse linear systems with complexity independent of graph size, but is\nin terms of the maximum node degree, which can be much larger in practice than the aver-\nage node degree for real-world large graphs. In this paper, we consider an online subsampled\nAPPR method , where messages are intentionally dropped at random. We use tools from\ngraph sparsifiers and ...",
+    "title": "Fast online node labeling with graph subsampling",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Design_and_Implementation_of_an_FPGA-Based_Tiled_Matrix_Multiplication_Accelerator_for_Transformer_Self-Attention_on_the_Xilinx_KV260_SoM.txt",
+    "content": "Design and Implementation of an FPGA-Based Tiled Matrix\nMultiplication Accelerator for Transformer Self-Attention on the\nXilinx KV260 SoM\nRichie Li∗\nUniversity of California, Irvine\nIrvine, United States\nzhaoqil3@uci.eduSicheng Chen\nUniversity of California, Irvine\nIrvine, United States\nsichenc5@uci.edu\nABSTRACT\nTransformer-based large language models (LLMs) rely heavily on\nintensive matrix multiplications for attention and feed-forward\nlayers, with the Q, K, and V linear projections in the Multi-Head\nSelf-Attention (MHA) module constituting a decisive performance\nbottleneck. In this work, we introduce a highly optimized tiled\nmatrix multiplication accelerator on a resource-constrained Xil-\ninx KV260 FPGA that not only addresses this challenge but sets a\nnew standard for efficiency and performance. Our design exploits\npersistent on-chip storage, a robust two-level tiling strategy for\nmaximal data reuse, and a systolic-like unrolled compute engine\nthat together deliver unparalleled spee...",
+    "title": "Design and Implementation of an FPGA-Based Tiled Matrix",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "PRIOT:_Pruning-Based_Integer-Only_Transfer_Learning_for_Embedded_Systems.txt",
+    "content": "1\nPRIOT: Pruning-Based Integer-Only\nTransfer Learning for Embedded Systems\nHonoka Anada , Sefutsu Ryu, Masayuki Usui, Tatsuya Kaneko ,\nand Shinya Takamaeda-Yamazaki ,Member, IEEE\nAbstract —On-device transfer learning is crucial for adapting\na common backbone model to the unique environment of each\nedge device. Tiny microcontrollers, such as the Raspberry Pi\nPico, are key targets for on-device learning but often lack\nfloating-point units, necessitating integer-only training. Dynamic\ncomputation of quantization scale factors, which is adopted in\nformer studies, incurs high computational costs. Therefore, this\nstudy focuses on integer-only training with static scale factors,\nwhich is challenging with existing training methods. We propose\na new training method named PRIOT, which optimizes the\nnetwork by pruning selected edges rather than updating weights,\nallowing effective training with static scale factors. The pruning\npattern is determined by the edge-popup algorithm, which trains\na par...",
+    "title": "PRIOT: Pruning-Based Integer-Only",
+    "authors": [
+      "pruning selected edges rather than updating weights"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "On-Sensor_Convolutional_Neural_Networks_with_Early-Exits.txt",
+    "content": "On-Sensor Convolutional Neural Networks with\nEarly-Exits\nHazem Hesham Yousef Shalby∗§, Arianna De Vecchi∗§, Alice Scandelli∗, Pietro Bartoli∗,\nDiana Trojaniello†, Manuel Roveri∗and Federica Villa∗\n{hazemhesham.shalby, arianna.devecchi, alice.scandelli, pietro.bartoli, manuel.roveri, federica.villa }@polimi.it\ndiana.trojaniello@luxottica.com\n∗Politecnico di Milano, Milan, Italy†EssilorLuxottica Smart Eyewear Lab, EssilorLuxottica, Milan, Italy\nAbstract —Tiny Machine Learning (TinyML) is a novel re-\nsearch field aiming at integrating Machine Learning (ML)\nwithin embedded devices with limited memory, computation,\nand energy. Recently, a new branch of TinyML has emerged,\nfocusing on integrating ML directly into the sensors to further\nreduce the power consumption of embedded devices. Interest-\ningly, despite their state-of-the-art performance in many tasks,\nnone of the current solutions in the literature aims to optimize\nthe implementation of Convolutional Neural Networks (CNNs)\noperating d...",
+    "title": "On-Sensor Convolutional Neural Networks with",
+    "authors": [
+      "∗§",
+      "Arianna De Vecchi∗§",
+      "Alice Scandelli∗",
+      "Pietro Bartoli∗"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning",
+      "neural networks"
+    ]
+  },
+  {
+    "filename": "A_Language_Anchor-Guided_Method_for_Robust_Noisy_Domain_Generalization.txt",
+    "content": "A Language Anchor-Guided Method for Robust Noisy\nDomain Generalization\nZilin Daia, Lehong Wangd, Fangzhou Linb,c, Yidong Wangg, Zhigang Lif,\nKazunori D Yamadae, Ziming Zhangb, Wang Luf,∗\naDepartment of Computer Science, Worcester Polytechnic\nInstitute, Worcester, 01609, MA, USA\nbDepartment of Electrical Engineering, Worcester Polytechnic\nInstitute, Worcester, 01609, MA, USA\ncDepartment of Robotics Engineering, Worcester Polytechnic\nInstitute, Worcester, 01609, MA, USA\ndCarnegie Mellon University, Pittsburgh, 15213, PA, USA\neTohoku University, Sendai, 980-8572, Japan\nfTsinghua University, Beijing, 100190, China\ngPeking University, Beijing, 100871, China\nAbstract\nReal-world machine learning applications are often hindered by two crit-\nical challenges: distribution shift and label noise. Networks inherently tend\nto overfit to redundant, uninformative features present in the training distri-\nbution, which undermines their ability to generalize effectively to the target\ndomain’s distributio...",
+    "title": "A Language Anchor-Guided Method for Robust Noisy",
+    "authors": [
+      "two crit-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "domain generalization",
+      "noisy label learning",
+      "representation"
+    ]
+  },
+  {
+    "filename": "ATOM:_A_Framework_of_Detecting_Query-Based_Model_Extraction_Attacks_for_Graph_Neural_Networks.txt",
+    "content": "ATOM: A Framework of Detecting Query-Based Model Extraction\nAttacks for Graph Neural Networks\nZhan Cheng\nUniversity of Wisconsin, Madison\nMadison, Wisconsin, USA\nzcheng256@wisc.eduBolin Shen\nFlorida State University\nTallahassee, Florida, USA\nblshen@fsu.eduTianming Sha\nArizona State University\nTempe, Arizona, USA\nstianmin@asu.edu\nYuan Gao\nUniversity of Wisconsin, Madison\nMadison, Wisconsin, USA\nygao355@wisc.eduShibo Li\nFlorida State University\nTallahassee, Florida, USA\nsl24bp@fsu.eduYushun Dong\nFlorida State University\nTallahassee, Florida, USA\nyushun.dong@fsu.edu\nAbstract\nGraph Neural Networks (GNNs) have gained traction in Graph-\nbased Machine Learning as a Service (GMLaaS) platforms, yet they\nremain vulnerable to graph-based model extraction attacks (MEAs),\nwhere adversaries reconstruct surrogate models by querying the vic-\ntim model. Existing defense mechanisms, such as watermarking and\nfingerprinting, suffer from poor real-time performance, susceptibil-\nity to evasion, or reliance ...",
+    "title": "ATOM: A Framework of Detecting Query-Based Model Extraction",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "neural networks"
+    ]
+  },
+  {
+    "filename": "NeuroSep-CP-LCB:_A_Deep_Learning-based_Contextual_Multi-armed_Bandit_Algorithm_with_Uncertainty_Quantification_for_Early_Sepsis_Prediction.txt",
+    "content": "NEURO SEP-CP-LCB: A D EEPLEARNING -BASED CONTEXTUAL\nMULTI -ARMED BANDIT ALGORITHM WITH UNCERTAINTY\nQUANTIFICATION FOR EARLY SEPSIS PREDICTION\nAnni Zhou, Raheem Beyah\nSchool of Electrical and Computer Engineering\nGeorgia Institute of Technology\n{azhou60, ab207}@gatech.eduRishikesan Kamaleswaran\nSchool of Medicine, Department of Surgery\nDuke University\nr.kamaleswaran@duke.edu\nABSTRACT\nIn critical care settings, timely and accurate predictions can significantly impact patient outcomes,\nespecially for conditions like sepsis, where early intervention is crucial. We aim to model patient-\nspecific reward functions in a contextual multi-armed bandit setting. The goal is to leverage patient-\nspecific clinical features to optimize decision-making under uncertainty. In this paper, we propose\nNeuroSep-CP-LCB, a novel integration of neural networks with contextual bandits and conformal\nprediction tailored for early sepsis detection. Unlike the algorithm pool selection problem in the\nprevious paper,...",
+    "title": "NEURO SEP-CP-LCB: A D EEPLEARNING -BASED CONTEXTUAL",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "MerGen:_Micro-electrode_recording_synthesis_using_a_generative_data-driven_approach.txt",
+    "content": "MerGen: Micro-electrode recording synthesis\nusing a generative data-driven approach\nThibault Martin1\nPaul Sauleau1,2Claire Haegelen1,3\nPierre Jannin1\n, John S.H. Baxter1∗\n1Laboratoire Traitement du Signal et de l’Image (INSERM UMR\n1099), University of Rennes (Rennes, France)\n2Rennes University Hospital Centre (Rennes, France)\n3Lyon University Hospital Centre (Lyon, France)\nAbstract\nThe analysis of electrophysiological data is crucial for certain surgical\nprocedures such as deep brain stimulation, which has been adopted for\nthe treatment of a variety of neurological disorders. During the proce-\ndure, auditory analysis of these signals helps the clinical team to infer the\nneuroanatomical location of the stimulation electrode and thus optimize\nclinical outcomes. This task is complex, and requires an expert who in\nturn requires significant training. In this paper, we propose a generative\nneural network, called MerGen, capable of simulating de novo electro-\nphysiological recordings, with a ...",
+    "title": "MerGen: Micro-electrode recording synthesis",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "data-driven generation micro-electrode recording",
+      "deep"
+    ]
+  },
+  {
+    "filename": "Curriculum_RL_meets_Monte_Carlo_Planning:_Optimization_of_a_Real_World_Container_Management_Problem.txt",
+    "content": "Curriculum RL meets Monte Carlo Planning:\nOptimization of a Real World Container\nManagement Problem\nAbhijeet Pendyala /envel⌢peand Tobias Glasmachers\nRuhr-University Bochum, Bochum, Germany\nfirstname.lastname@ini.rub.de\nAbstract. In this work, we augment reinforcement learning with an\ninference-time collision model to ensure safe and efficient container man-\nagementinawaste-sortingfacilitywithlimitedprocessingcapacity.Each\ncontainerhastwooptimalemptyingvolumesthattradeoffhigherthrough-\nput against overflow risk. Conventional reinforcement learning (RL) ap-\nproaches struggle under delayed rewards, sparse critical events, and high-\ndimensional uncertainty—failing to consistently balance higher-volume\nempties with the risk of safety-limit violations. To address these chal-\nlenges,weproposeahybridmethodcomprising:(1)a curriculum-learning\npipeline that incrementally trains a PPO agent to handle delayed re-\nwards and class imbalance, and (2) an offline pairwise collision model\nused at infere...",
+    "title": "Curriculum RL meets Monte Carlo Planning:",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "reinforcement learning ·curriculum learning ·inference-"
+    ]
+  },
+  {
+    "filename": "Hi-ALPS_--_An_Experimental_Robustness_Quantification_of_Six_LiDAR-based_Object_Detection_Systems_for_Autonomous_Driving.txt",
+    "content": "Hi-ALPS - An Experimental Robustness\nQuantification of Six LiDAR-based Object\nDetection Systems for Autonomous Driving\n1stAlexandra Arzberger\nFaculty of Computer Science\nNuremberg Institute of Technology\nNuremberg, Bavaria, Germany\nalexandra.arzberger@th-nuernberg.de\n0009-0001-2581-71192ndRamin Tavakoli Kolagari\nFaculty of Computer Science\nNuremberg Institute of Technology\nNuremberg, Bavaria, Germany\nramin.tavakolikolagari@th-nuernberg.de\n0000-0002-7470-3767\nAbstract —Light Detection and Ranging (LiDAR) is an essential\nsensor technology for autonomous driving as it can capture high-\nresolution 3D data. As 3D object detection systems (OD) can\ninterpret such point cloud data, they play a key role in the driving\ndecisions of autonomous vehicles. Consequently, such 3D OD\nmust be robust against all types of perturbations and must there-\nfore be extensively tested. One approach is the use of adversarial\nexamples, which are small, sometimes sophisticated perturbations\nin the input data that c...",
+    "title": "Hi-ALPS - An Experimental Robustness",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "A_Thorough_Assessment_of_the_Non-IID_Data_Impact_in_Federated_Learning.txt",
+    "content": "JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2021 1\nA Thorough Assessment of the Non-IID Data\nImpact in Federated Learning\nDaniel Mauricio Jimenez G. , Mehrdad Hassanzadeh, Aris Anagnostopoulos , Ioannis\nChatzigiannakis ,Senior Member, IEEE , Andrea Vitaletti\nAbstract —Federated learning (FL) allows collaborative ma-\nchine learning (ML) model training among decentralized clients’\ninformation, ensuring data privacy. The decentralized nature\nof FL deals with non-independent and identically distributed\n(non-IID) data. This open problem has notable consequences,\nsuch as decreased model performance and larger convergence\ntimes. Despite its importance, experimental studies systematically\naddressing all types of data heterogeneity (a.k.a. non-IIDness)\nremain scarce. This paper aims to fill this gap by assessing and\nquantifying the non-IID effect through a thorough empirical anal-\nysis. We use the Hellinger Distance ( HD) to measure differences\nin distribution among clients. Our study...",
+    "title": "JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2021 1",
+    "authors": [
+      "assessing"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2021,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Token_Dynamics:_Towards_Efficient_and_Dynamic_Video_Token_Representation_for_Video_Large_Language_Models.txt",
+    "content": "Token Dynamics: Towards Efficient and Dynamic Video Token Representation\nfor Video Large Language Models\nHaichao Zhang\nNortheastern University\n360 Hungtington Ave, Boston MA 02115\nzhang.haichao@northeastern.eduZhuowei Li\nRutgers University\n57 US Highway 1, New Brunswick, NJ 08901\nzl502@cs.rutgers.edu\nDimitris Metaxas\nRutgers University\n57 US Highway 1, New Brunswick, NJ 08901\ndnm@cs.rutgers.eduYun Fu\nNortheastern University\n360 Hungtington Ave, Boston MA 02115\nyunfu@ece.neu.edu\nAbstract\nToken-based video representation has emerged as a\npromising approach for enabling large language models\n(LLMs) to interpret video content. However, existing to-\nken reduction techniques, such as token pruning and token\nmerging, often disrupt essential spatial-temporal positional\nembeddings, failing to adequately balance computational\nefficiency with fewer tokens. Consequently, these methods\nresult in relatively lengthy token sequences, limiting their\napplicability in scenarios requiring extreme token co...",
+    "title": "Token Dynamics: Towards Efficient and Dynamic Video Token Representation",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Preferential_Multi-Objective_Bayesian_Optimization_for_Drug_Discovery.txt",
+    "content": "Preferential Multi-Objective Bayesian Optimization for Drug Discovery\nTai Dang* 1 2 3Long-Hung Pham* 4Sang T. Truong* 2Ari Glenn3Wendy Nguyen1Edward A. Pham3\nJeffrey S. Glenn3Sanmi Koyejo2Thang Luong1\nAbstract\nDespite decades of advancements in automated\nligand screening, large-scale drug discovery\nremains resource-intensive and requires post-\nprocessing hit selection, a step where chemists\nmanually select a few promising molecules based\non their chemical intuition. This creates a ma-\njor bottleneck in the virtual screening process for\ndrug discovery, demanding experts to repeatedly\nbalance complex trade-offs among drug properties\nacross a vast pool of candidates. To improve the\nefficiency and reliability of this process, we pro-\npose a novel human-centered framework named\nCheapVS that allows chemists to guide the lig-\nand selection process by providing preferences re-\ngarding the trade-offs between drug properties via\npairwise comparison. Our framework combines\npreferential multi-obje...",
+    "title": "Preferential Multi-Objective Bayesian Optimization for Drug Discovery",
+    "authors": [
+      "providing preferences re-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Rethinking_the_Role_of_Spatial_Mixing.txt",
+    "content": "Rethinking the Role of Spatial Mixing\nGeorge Cazenavette1* Joel Julin2Simon Lucey3\n1Massachusetts Institute of Technology2Carnegie Mellon University3University of Adelaide\nAbstract\nUntil quite recently, the backbone of nearly every state-of-\nthe-art computer vision model has been the 2D convolution.\nAt its core, a 2D convolution simultaneously mixes informa-\ntion across both the spatial and channel dimensions of a\nrepresentation. Many recent computer vision architectures\nconsist of sequences of isotropic blocks that disentangle the\nspatial and channel-mixing components. This separation of\nthe operations allows us to more closely juxtapose the effects\nof spatial and channel mixing in deep learning. In this paper,\nwe take an initial step towards garnering a deeper under-\nstanding of the roles of these mixing operations. Through\nour experiments and analysis, we discover that on both clas-\nsical (ResNet) and cutting-edge (ConvMixer) models, we can\nreach nearly the same level of classificat...",
+    "title": "Rethinking the Role of Spatial Mixing",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "computer vision"
+    ]
+  },
+  {
+    "filename": "On_Quantum_Perceptron_Learning_via_Quantum_Search.txt",
+    "content": "1\nOn Quantum Perceptron Learning via\nQuantum Search\nXiaoyu Sun†*, Mathieu Roget†, Giuseppe Di Molfetta†, and Hachem Kadri†\nAbstract —With the growing interest in quantum machine learn-\ning, the perceptron—a fundamental building block in traditional\nmachine learning—has emerged as a valuable model for exploring\nquantum advantages. Two quantum perceptron algorithms based\nonGrover’s search , were developed in [18] to accelerate training\nand improve statistical efficiency in perceptron learning. This\npaper points out and corrects a mistake in the proof of [18,\nTheorem 2]. Specifically, we show that the probability of sampling\nfrom a normal distribution for a D-dimensional hyperplane that\nperfectly classifies the data scales as Ω(γD)instead of Θ(γ),\nwhere γis the margin. We then revisit two well-established linear\nprogramming algorithms—the ellipsoid method and the cutting\nplane random walk algorithm—in the context of perceptron\nlearning, and show how quantum search algorithms can be\nlevera...",
+    "title": "On Quantum Perceptron Learning via",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "HAPI:_A_Model_for_Learning_Robot_Facial_Expressions_from_Human_Preferences.txt",
+    "content": "HAPI: A Model for Learning Robot Facial Expressions from Human\nPreferences\nDongsheng Yang1,2, Qianying Liu6, Wataru Sato2,3, Takashi Minato4, Chaoran Liu5, Shin’ya Nishida1\nAbstract — Automatic robotic facial expression generation is\ncrucial for human–robot interaction (HRI), as handcrafted\nmethods based on fixed joint configurations often yield rigid\nand unnatural behaviors. Although recent automated tech-\nniques reduce the need for manual tuning, they tend to fall\nshort by not adequately bridging the gap between human\npreferences and model predictions—resulting in a deficiency\nof nuanced and realistic expressions due to limited degrees of\nfreedom and insufficient perceptual integration. In this work,\nwe propose a novel learning-to-rank framework that leverages\nhuman feedback to address this discrepancy and enhanced\nthe expressiveness of robotic faces. Specifically, we conduct\npairwise comparison annotations to collect human preference\ndata and develop the Human Affective Pairwise Imp...",
+    "title": "HAPI: A Model for Learning Robot Facial Expressions from Human",
+    "authors": [
+      "not adequately bridging the gap between human"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Learning_Part_Knowledge_to_Facilitate_Category_Understanding_for_Fine-Grained_Generalized_Category_Discovery.txt",
+    "content": "Learning Part Knowledge to Facilitate Category Understanding for\nFine-Grained Generalized Category Discovery\nEnguang Wang1, Zhimao Peng1, Zhengyuan Xie1, Haori Lu1, Fei Yang2,1, Xialei Liu2,1\n1VCIP, CS, Nankai University2NKIARI, Shenzhen Futian\n{enguangwang,zhimao796,xiezhengyuan,luhaori }@mail.nankai.edu.cn\n{feiyang,xialei }@nankai.edu.cn\nAbstract\nGeneralized Category Discovery (GCD) aims to clas-\nsify unlabeled data containing both seen and novel cate-\ngories. Although existing methods perform well on generic\ndatasets, they struggle in fine-grained scenarios. We at-\ntribute this difficulty to their reliance on contrastive learn-\ning over global image features to automatically capture dis-\ncriminative cues, which fails to capture the subtle local\ndifferences essential for distinguishing fine-grained cate-\ngories. Therefore, in this paper, we propose incorporating\npart knowledge to address fine-grained GCD, which intro-\nduces two key challenges: the absence of annotations for\nnovel cla...",
+    "title": "Learning Part Knowledge to Facilitate Category Understanding for",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "A_Flexible_Fairness_Framework_with_Surrogate_Loss_Reweighting_for_Addressing_Sociodemographic_Disparities.txt",
+    "content": "A Flexible Fairness Framework with Surrogate Loss Reweighting for Addressing\nSociodemographic Disparities\nWen Xu1∗,Elham Dolatabadi2\n1University of Toronto\n2York University, Vector Institute\nrealwen.xu@mail.utoronto.ca, edolatab@yorku.ca\nAbstract\nThis paper presents a new algorithmic fairness\nframework called α-βFair Machine Learning ( α-\nβFML), designed to optimize fairness levels across\nsociodemographic attributes. Our framework em-\nploys a new family of surrogate loss functions,\npaired with loss reweighting techniques, allowing\nprecise control over fairness-accuracy trade-offs\nthrough tunable hyperparameters αandβ. To ef-\nficiently solve the learning objective, we propose\nParallel Stochastic Gradient Descent with Surro-\ngate Loss (P-SGD-S) and establish convergence\nguarantees for both convex and nonconvex loss\nfunctions. Experimental results demonstrate that\nour framework improves overall accuracy while re-\nducing fairness violations, offering a smooth trade-\noff between standard em...",
+    "title": "A Flexible Fairness Framework with Surrogate Loss Reweighting for Addressing",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "Assessing_Consistency_and_Reproducibility_in_the_Outputs_of_Large_Language_Models:_Evidence_Across_Diverse_Finance_and_Accounting_Tasks.txt",
+    "content": " \n Assessing C onsistency  and Reproducibility  in the Outputs of Large Language Models: \nEvidence Across Diverse Finance and Accounting Tasks  \n \nMarch  2025 \n \nJulian Junyan Wang  \nUniversity College, University of Oxford \njulian.wang@univ.ox.ac.uk   \n \nVictor Xiaoqi Wang  \nCollege of Business, California State University Long Beach \nvictor.wang@csulb.edu  \n \nAbstract: This study provides the first comprehensive assessment of consistency and reproducibility in \nLarge Language Model (LLM) outputs in  finance and accounting research. We evaluate how consistently \nLLMs produce outputs given identical inputs through extensive experimentation with 50 independent runs \nacross five common tasks: classification, sentiment analysis, summarization, text generation, and prediction. Using three OpenAI models ( GPT-3.5-turbo, GPT -4o-mini, and GPT -4o), we generate over 3.4 \nmillion  outputs from diverse financial source texts and data, covering MD&As, FOMC statements, finance \nnews articles, ear...",
+    "title": "Assessing C onsistency  and Reproducibility  in the Outputs of Large Language Models:",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Towards_Automated_Semantic_Interpretability_in_Reinforcement_Learning_via_Vision-Language_Models.txt",
+    "content": "Technical Report\nTowards Automated Semantic Interpretability in Reinforcement Learning\nvia Vision-Language Models\nZhaoxin Li1∗, Zhang Xi-Jia1∗, Batuhan Altundas1, Letian Chen1, Rohan Paleja2, Matthew Gombolay1\nAbstract — Semantic Interpretability in Reinforcement Learn-\ning (RL) enables transparency, accountability, and safer de-\nployment by making the agent’s decisions understandable\nand verifiable. Achieving this, however, requires a feature\nspace composed of human-understandable concepts, which\ntraditionally rely on human specification and fail to generalize\nto unseen environments. In this work, we introduce Semantically\nInterpretable Reinforcement Learning with Vision-Language\nModels Empowered Automation (SILV A), an automated frame-\nwork that leverages pre-trained vision-language models (VLM)\nfor semantic feature extraction and interpretable tree-based\nmodels for policy optimization. SILV A first queries a VLM to\nidentify relevant semantic features for an unseen environment,\nthen ...",
+    "title": "Technical Report",
+    "authors": [
+      "making the agent’s decisions understandable"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "reinforcement learning"
+    ]
+  },
+  {
+    "filename": "Physics-Informed_Deep_B-Spline_Networks_for_Dynamical_Systems.txt",
+    "content": "[Distribution A: Approved for public release; distribution is unlimited.]\nPhysics-Informed Deep B-Spline Networks for Dynamical Systems\nZhuoyuan Wang1Raffaele Romagnoli2Jasmine Ratchford3Yorie Nakahira1\nAbstract\nPhysics-informed machine learning provides an\napproach to combining data and governing\nphysics laws for solving complex partial differen-\ntial equations (PDEs). However, efficiently solv-\ning PDEs with varying parameters and chang-\ning initial conditions and boundary conditions\n(ICBCs) with theoretical guarantees remains an\nopen challenge. We propose a hybrid frame-\nwork that uses a neural network to learn B-spline\ncontrol points to approximate solutions to PDEs\nwith varying system and ICBC parameters. The\nproposed network can be trained efficiently as\none can directly specify ICBCs without imposing\nlosses, calculate physics-informed loss functions\nthrough analytical formulas, and requires only\nlearning the weights of B-spline functions as op-\nposed to both weights and basis as...",
+    "title": "[Distribution A: Approved for public release; distribution is unlimited.]",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "ContextGNN_goes_to_Elliot:_Towards_Benchmarking_Relational_Deep_Learning_for_Static_Link_Prediction_(aka_Personalized_Item_Recommendation).txt",
+    "content": "arXiv:2503.16661v1  [cs.LG]  20 Mar 2025ContextGNNgoes to E/l.sc/l.sc/i.sc/o.sc/t.sc: Towards Benchmarking Relational\nDeep Learning forStaticLink Prediction(aka Personalized Item\nRecommendation)\nAlejandro Ariza-Casabona∗\nalejandro.ariza14@ub.edu\nUniversity of Barcelona,CLiC-UBICS\nBarcelona,SpainNikosKanakaris∗\nkanakari@usc.edu\nUniversity of Southern California\nLosAngeles,CA,USADanieleMalitesta∗\ndaniele.malitesta@centralesupelec.fr\nUniversité Paris-Saclay,\nCentraleSupélec,Inria\nGif-sur-Yvette, France\nAbstract\nRelational deep learning [4] (RDL) settles among the most ex cit-\ningadvancesinmachinelearningforrelationaldatabases, leverag-\ning the representational power of message passing graph neu ral\nnetworks (GNNs) to derive useful knowledge and run predicti ng\ntasks on tables connected through primary-to-foreign key l inks.\nThe RDL paradigm has been successfully appliedto recommend a-\ntionlately,throughitsmostrecentrepresentativedeeple arningar-\nchitecture namely, ContextGNN [14]. While a...",
+    "title": "arXiv:2503.16661v1  [cs.LG]  20 Mar 2025ContextGNNgoes to E/l.sc/l.sc/i.sc/o.sc/t.sc: Towards Benchmarking Relational",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "deep learning"
+    ]
+  },
+  {
+    "filename": "Replay4NCL:_An_Efficient_Memory_Replay-based_Methodology_for_Neuromorphic_Continual_Learning_in_Embedded_AI_Systems.txt",
+    "content": "Accepted at the 62nd Design Automation Conference (DAC), June 2025, San Francisco, CA, USA.\nReplay4NCL: An Efficient Memory Replay-based\nMethodology for Neuromorphic Continual Learning\nin Embedded AI Systems\nMishal Fatima Minhas1, Rachmad Vidya Wicaksana Putra2, Falah Awwad1, Osman Hasan3, Muhammad Shafique2\n1Electrical and Communication Engineering Department, United Arab Emirates University (UAEU), Al Ain, UAE\n2eBrain Lab, New York University (NYU) Abu Dhabi, Abu Dhabi, UAE\n3School of Electrical Engineering and Computer Science (SEECS), National University of Sciences and\nTechnology (NUST), Islamabad, Pakistan\n{mishal.fatima, f awwad }@uaeu.ac.ae, {rachmad.putra, muhammad.shafique }@nyu.edu,\nosman.hasan@seecs.edu.pk\nAbstract —Neuromorphic Continual Learning (NCL) paradigm\nleverages Spiking Neural Networks (SNNs) to enable continual\nlearning (CL) capabilities for AI systems to adapt to dynamically\nchanging environments. Currently, the state-of-the-art employ a\nmemory replay-based meth...",
+    "title": "Accepted at the 62nd Design Automation Conference (DAC), June 2025, San Francisco, CA, USA.",
+    "authors": [
+      "incurring significant latency"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "QCPINN:_Quantum_Classical_Physics-Informed_Neural_Networks_for_Solving_PDEs.txt",
+    "content": "QCPINN: Quantum Classical Physics-Informed Neural Networks for\nSolving PDEs\nAfrah Fareaa, Saiful Khanb, Mustafa Serdar Celebia\naInformatics Institute, Department of Computational Science and Engineering, Istanbul Technical\nUniversity, Istanbul34469 Turkey\nbScientific Computing Department, Rutherford Appleton Laboratory, Science and Technology Facilities Council\n(STFC), United Kingdom\nAbstract\nHybrid quantum-classical neural network methods represent an emerging approach to solving com-\nputationally challenging differential equations by leveraging advantages from both paradigms. While\nphysics-informed neural networks (PINNs) have successfully orporated physical constraints into neural\narchitectures for solving partial differential equations (PDEs), the potential quantum advantages in this\ndomain remain largely unexplored. This work investigates whether quantum-classical physics-informed\nneural networks (QCPINNs) can efficiently solve PDEs with reduced parameter counts compared to\nclassi...",
+    "title": "QCPINN: Quantum Classical Physics-Informed Neural Networks for",
+    "authors": [
+      "leveraging advantages from both paradigms. While"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "hybrid",
+      "qml",
+      "pinn",
+      "qcpinn",
+      "pde",
+      "cfd",
+      "cvqnn",
+      "dvqnn",
+      "pqc"
+    ]
+  },
+  {
+    "filename": "Depth_Matters:_Multimodal_RGB-D_Perception_for_Robust_Autonomous_Agents.txt",
+    "content": "Depth Matters: Multimodal RGB-D Perception\nfor Robust Autonomous Agents\nMihaela-Larisa Clement∗1, M´onika Farsang∗1, Felix Resch1, Radu Grosu1\nAbstract — Autonomous agents that rely purely on perception\nto make real-time control decisions require efficient and robust\narchitectures. In this work, we demonstrate that augmenting\nRGB input with depth information significantly enhances our\nagents’ ability to predict steering commands compared to using\nRGB alone. We benchmark lightweight recurrent controllers\nthat leverage the fused RGB-D features for sequential decision-\nmaking. To train our models, we collect high-quality data using\na small-scale autonomous car controlled by an expert driver via\na physical steering wheel, capturing varying levels of steering\ndifficulty. Our models, trained under diverse configurations,\nwere successfully deployed on real hardware. Specifically, our\nfindings reveal that the early fusion of depth data results in\na highly robust controller, which remains effec...",
+    "title": "Depth Matters: Multimodal RGB-D Perception",
+    "authors": [
+      "an expert driver via"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Accelerating_Transformer_Inference_and_Training_with_2:4_Activation_Sparsity.txt",
+    "content": "Published at ICLR 2025 Workshop on Sparsity in LLMs\nACCELERATING TRANSFORMER INFERENCE AND\nTRAINING WITH 2:4 A CTIVATION SPARSITY\nDaniel Haziza Timothy Chou Dhruv Choudhary Luca Wehrstedt\nFrancisco Massa Jiecao Yu Geonhwa Jeong Supriya Rao Patrick Labatut\nJesse Cai\nMeta\n1 Hacker Way, Menlo Park, CA 94025\n{dhaziza,timchou,choudharydhruv,lcw }@meta.com\n{fmasssa,jiecaoyu,geonhwa,supriyar,palabatut,jessecai }@meta.com\nABSTRACT\nIn this paper, we demonstrate how to leverage 2:4 sparsity, a popular hardware-\naccelerated GPU sparsity pattern, to activations to accelerate large language\nmodel training and inference. Crucially we exploit the intrinsic sparsity found\nin Squared-ReLU activations to provide this acceleration with no accuracy loss .\nOur approach achieves up to 1.3x faster Feed Forward Network (FFNs) in both\nthe forwards and backwards pass. This work highlights the potential for sparsity\nto play a key role in accelerating large language model training and inference.\n1 I NTRODUCTION &...",
+    "title": "Published at ICLR 2025 Workshop on Sparsity in LLMs",
+    "authors": [
+      "a corre-"
+    ],
+    "conference": "ICLR ",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Capturing_Individual_Human_Preferences_with_Reward_Features.txt",
+    "content": "Capturing Individual Human Preferences with Reward Features\nAndr ´e Barreto1Vincent Dumoulin1Yiran Mao1Nicolas Perez-Nieves1Bobak Shahriari1Yann Dauphin1\nDoina Precup1Hugo Larochelle1\nAbstract\nReinforcement learning from human feedback\nusually models preferences using a reward model\nthat does not distinguish between people. We ar-\ngue that this is unlikely to be a good design choice\nin contexts with high potential for disagreement,\nlike in the training of large language models. We\npropose a method to specialise a reward model\nto a person or group of people. Our approach\nbuilds on the observation that individual prefer-\nences can be captured as a linear combination of\na set of general reward features. We show how to\nlearn such features and subsequently use them to\nquickly adapt the reward model to a specific indi-\nvidual, even if their preferences are not reflected\nin the training data. We present experiments with\nlarge language models comparing the proposed\narchitecture with a non-adap...",
+    "title": "Capturing Individual Human Preferences with Reward Features",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "reinforcement learning"
+    ]
+  },
+  {
+    "filename": "Deep_End-to-End_Posterior_ENergy_(DEEPEN)_for_image_recovery.txt",
+    "content": "1\nDeep End-to-End Posterior ENergy (DEEPEN) for\nimage recovery\nJyothi Rikhab Chand, Member, IEEE, and Mathews Jacob, Fellow, IEEE\nAbstract —Current end-to-end (E2E) and plug-and-play\n(PnP) image reconstruction algorithms approximate the\nmaximum a posteriori (MAP) estimate but cannot offer\nsampling from the posterior distribution, like diffusion\nmodels. By contrast, it is challenging for diffusion models\nto be trained in an E2E fashion. This paper introduces\na Deep End-to-End Posterior ENergy (DEEPEN) frame-\nwork, which enables MAP estimation as well as sampling.\nWe learn the parameters of the posterior, which is the\nsum of the data consistency error and the negative log-\nprior distribution, using maximum likelihood optimization\nin an E2E fashion. The proposed approach does not\nrequire algorithm unrolling, and hence has a smaller\ncomputational and memory footprint than current E2E\nmethods, while it does not require contraction constraints\ntypically needed by current PnP methods. Our res...",
+    "title": "Deep End-to-End Posterior ENergy (DEEPEN) for",
+    "authors": [
+      "contrast",
+      "it is challenging for diffusion models"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Revisiting_End_To_End_Sparse_Autoencoder_Training_--_A_Short_Finetune_is_All_You_Need.txt",
+    "content": "Revisiting End To End Sparse Autoencoder Training - A Short Finetune is All\nYou Need\nAdam Karvonen1\nAbstract\nSparse autoencoders (SAEs) are widely used for\ninterpreting language model activations. A key\nevaluation metric is the increase in cross-entropy\nloss when replacing model activations with SAE\nreconstructions. Typically, SAEs are trained\nsolely on mean squared error (MSE) using pre-\ncomputed, shuffled activations. Recent work intro-\nduced training SAEs directly with a combination\nof KL divergence and MSE (“end-to-end” SAEs),\nsignificantly improving reconstruction accuracy\nat the cost of substantially increased computa-\ntion, which has limited their widespread adoption.\nWe propose a brief KL+MSE fine-tuning step ap-\nplied only to the final 25M training tokens (just\na few percent of typical training budgets) that\nachieves comparable improvements, reducing the\ncross-entropy loss gap by 20–50%, while incur-\nring minimal additional computational cost. We\nfurther find that multiple fin...",
+    "title": "Revisiting End To End Sparse Autoencoder Training - A Short Finetune is All",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Model-free_front-to-end_training_of_a_large_high_performance_laser_neural_network.txt",
+    "content": "Model-free front-to-end training of a large high\nperformance laser neural network\nAnas Skalli1*, Satoshi Sunada2, Mirko Goldmann1,\nMarcin Gebski3, Stephan Reitzenstein4, James A. Lott4,\nTomasz Czyszanowski3, Daniel Brunner1\n1*Institut FEMTO-ST, Universit´ e Marie et Louis Pasteur, CNRS UMR,\n6174, Besan¸ con, France.\n2Faculty of Mechanical Engineering, Institute of Science and\nEngineering, Kanazawa University, Kakuma-machi Kanazawa, Ishikawa\n920–1192, Japan.\n3Institute of Physics, Lodz University of Technology, ul. W´ olczanska\n219, 90-924 Lodz, Poland.\n4Technical University of Berlin, Hardenbergstraße 36, D-10623 Berlin,\nGermany.\n*Corresponding author(s). E-mail(s): anas.skalli@femto-st.fr;\nanasskalli2@gmail.com;\nAbstract\nArtificial neural networks (ANNs), have become ubiquitous and revolutionized\nmany applications ranging from computer vision to medical diagnoses. However,\nthey offer a fundamentally connectionist and distributed approach to computing,\nin stark contrast to classical co...",
+    "title": "Model-free front-to-end training of a large high",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "model-free optimization",
+      "online learning",
+      "photonic neural networks"
+    ]
+  },
+  {
+    "filename": "EarlyStopping:_Implicit_Regularization_for_Iterative_Learning_Procedures_in_Python.txt",
+    "content": "EarlyStopping: Implicit Regularization for Iterative Learning\nProcedures in Python\nEric Ziebell1, Ratmir Miftachov1,2, Bernhard Stankewitz3, Laura Hucker1\n1Institute of Mathematics, Humboldt-Universit¨ at zu Berlin\n2School of Business and Economics, Humboldt-Universit¨ at zu Berlin\n3Institute of Mathematics, Universit¨ at Potsdam\nMarch 24, 2025\nAbstract\nIterative learning procedures are ubiquitous in machine learning and modern statistics.\nRegularision is typically required to prevent inflating the expected loss of a procedure in\nlater iterations via the propagation of noise inherent in the data. Significant emphasis has\nbeen placed on achieving this regularisation implicitly by stopping procedures early. The\nEarlyStopping-package provides a toolbox of (in-sample) sequential early stopping rules\nfor several well-known iterative estimation procedures, such as truncated SVD, Landwe-\nber (gradient descent), conjugate gradient descent, L2-boosting and regression trees. One\nof the central f...",
+    "title": "EarlyStopping: Implicit Regularization for Iterative Learning",
+    "authors": [
+      "stopping procedures early. The"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "python",
+      "early stopping",
+      "discrepancy principle",
+      "implicit regularisation"
+    ]
+  },
+  {
+    "filename": "Modifying_Large_Language_Model_Post-Training_for_Diverse_Creative_Writing.txt",
+    "content": "Preprint. Under review.\nModifying Large Language Model Post-Training for Diverse\nCreative Writing\nJohn Joon Young Chung1∗, Vishakh Padmakumar2, Melissa Roemmele1,\nYuqian Sun1& Max Kreminski1\n1Midjourney\n2New York University\nAbstract\nAs creative writing tasks do not have singular correct answers, large lan-\nguage models (LLMs) trained to perform these tasks should be able to\ngenerate diverse valid writings. However, LLM post-training often focuses\non improving generation quality but neglects to facilitate output diver-\nsity. Hence, in creative writing generation, we investigate post-training\napproaches to promote both output diversity and quality. Our core idea is\nto include deviation—the degree of difference between a training sample\nand all other samples with the same prompt—in the training objective to fa-\ncilitate learning from rare high-quality instances. By adopting our approach\nto direct preference optimization (DPO) and odds ratio preference optimiza-\ntion (ORPO), we demonstrate...",
+    "title": "Preprint. Under review.",
+    "authors": [
+      "adopting our approach"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Predicting_Potential_Customer_Support_Needs_and_Optimizing_Search_Ranking_in_a_Two-Sided_Marketplace.txt",
+    "content": "Predicting Potential Customer Support Needs and Optimizing\nSearch Ranking in a Two-Sided Marketplace\nDo-kyum Kim\nAirbnb\nCA, USA\ndo-kyum.kim@airbnb.comHan Zhao\nAirbnb\nCA, USA\nhan.zhao@airbnb.comHuiji Gao\nAirbnb\nCA, USA\nhuiji.gao@airbnb.com\nLiwei He\nAirbnb\nCA, USA\nliwei.he@airbnb.comMalay Haldar\nAirbnb\nCA, USA\nmalay.haldar@airbnb.comSanjeev Katariya\nAirbnb\nCA, USA\nsanjeev.katariya@airbnb.com\nABSTRACT\nAirbnb is an online marketplace that connects hosts and guests to\nunique stays and experiences. When guests stay at homes booked\non Airbnb, there are a small fraction of stays that lead to support\nneeded from Airbnb’s Customer Support (CS), which may cause\ninconvenience to guests and hosts and require Airbnb resources\nto resolve. In this work, we show that instances where CS support\nis needed may be predicted based on hosts and guests behavior.\nWe build a model to predict the likelihood of CS support needs\nfor each match of guest and host. The model score is incorporated\ninto Airbnb’s search...",
+    "title": "Predicting Potential Customer Support Needs and Optimizing",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Physics-Informed_Neural_Network_Surrogate_Models_for_River_Stage_Prediction.txt",
+    "content": "Physics-Informed Neural Network Surrogate Models for River Stage Prediction\nMaximilian Zoch\nCoDiS-Lab ISDS\nGraz Technical University of Technology\nGraz, Austria\nmaximilian.zoch@tugraz.atEdward Holmberg\nGulf States Center for Environmental Informatics\nUniversity of New Orleans\nLouisiana, United States\neholmber@uno.edu\nPujan Pokhrel\nGulf States Center for Environmental Informatics\nUniversity of New Orleans\nLouisiana, United States\nppokhre1@uno.eduKen Pathak\nUS Army Corps of Engineers\nVicksburg District\nMississippi, United States\nken.pathak@usace.army.milSteven Sloan\nUS Army Corps of Engineers\nVicksburg District\nMississippi, United States\nsteven.sloan@usace.army.mil\nKendall Niles\nUS Army Corps of Engineers\nVicksburg District\nMississippi, United States\nkendall.niles@usace.army.milJay Ratcliff\nGulf States Center for Environmental Informatics\nUniversity of New Orleans\nLouisiana, United States\njratclif@uno.eduMaik Flanagin\nUS Army Corps of Engineers\nNew Orleans District\nLouisiana, United Stat...",
+    "title": "Physics-Informed Neural Network Surrogate Models for River Stage Prediction",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Generative_adversarial_framework_to_calibrate_excursion_set_models_for_the_3D_morphology_of_all-solid-state_battery_cathodes.txt",
+    "content": "Generative adversarial framework to calibrate excursion set models for\nthe 3D morphology of all-solid-state battery cathodes\nOrkun Furat1,†,∗, Sabrina Weber1,†, Johannes Schubert2, Ren´ e Rekers2, Maximilian Luczak3,\nErik Glatt3, Andreas Wiegmann3, J¨ urgen Janek2, Anja Bielefeld2, Volker Schmidt1\n1Institute of Stochastics, Ulm University, Helmholtzstraße 18, 89069 Ulm, Germany\n2Center for Materials Research (ZfM), Justus Liebig University Giessen, Heinrich-Buff-Ring 16, Giessen 35392,\nGermany\n3Math2Market GmbH, Richard-Wagner-Straße 1, 67655 Kaiserslautern, Germany\nAbstract\nThis paper presents a computational method for generating virtual 3D morphologies of functional materials using\nlow-parametric stochastic geometry models, i.e., digital twins, calibrated with 2D microscopy images. These digital\ntwins allow systematic parameter variations to simulate various morphologies, that can be deployed for virtual\nmaterials testing by means of spatially resolved numerical simulations of macro...",
+    "title": "Generative adversarial framework to calibrate excursion set models for",
+    "authors": [
+      "means of spatially resolved numerical simulations of macroscopic properties. Generative"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "—spatial stochastic model",
+      "stereology",
+      "generative adversarial network",
+      "all-solid-state battery cathode"
+    ]
+  },
+  {
+    "filename": "TRACE:_Time_SeRies_PArameter_EffiCient_FinE-tuning.txt",
+    "content": "TRACE: T ime SeR ies PA rameter EffiC ient\nFinE -tuning\nYuze Li1a, Wei Zhub\naShenzhen International Graduate School, Tsinghua University, Shenzhen, China\nbSchool of Science, University of Hong Kong, Hong Kong, China\nAbstract\nWe propose an efficient fine-tuning method for time series foundation models,\ntermed TRACE: Time Series Parameter Efficient Fine-tuning. While pre-\ntrained time series foundation models are gaining popularity, they face the\nfollowing challenges: (1) Unlike natural language tasks, time series data vary\nin frequency, channel numbers, historical/prediction lengths. For long-term\nforecasting tasks in particular, tailored fine-tuning can significantly enhance\nperformance.(2) Existing parameter-efficient tuning methods like LoRA re-\nmain applicable but require adaptation to temporal characteristics.\nTo address these challenges, our TRACE framework introduces two key\ninnovations: (1) Gated DSIC (Gated Dynamic Simulation Importance Cal-\nculation), an unbiased LoRA module i...",
+    "title": "TRACE: T ime SeR ies PA rameter EffiC ient",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "fine-tuning",
+      "time series",
+      "foundation model",
+      "forecasting"
+    ]
+  },
+  {
+    "filename": "Optimal_Nonlinear_Online_Learning_under_Sequential_Price_Competition_via_s-Concavity.txt",
+    "content": "Optimal Nonlinear Online Learning under Sequential Price\nCompetition via s-Concavity\nDaniele Bracale dbracale@umich.edu\nDepartment of Statistics\nUniversity of Michigan\nMoulinath Banerjee moulib@umich.edu\nDepartment of Statistics\nUniversity of Michigan\nCong Shi congshi@bus.miami.edu\nUniversity of Miami\nDepartment of Management\nYuekai Sun yuekai@umich.edu\nDepartment of Statistics\nUniversity of Michigan\nAbstract\nWe consider price competition among multiple sellers over a selling horizon of Tperiods. In\neach period, sellers simultaneously offer their prices and subsequently observe their respective\ndemand that is unobservable to competitors. The demand function for each seller depends\non all sellers’ prices through a private, unknown, and nonlinear relationship. To address\nthis challenge, we propose a semi-parametric least-squares estimation of the nonlinear mean\nfunction, which does not require sellers to communicate demand information. We show that\nwhen all sellers employ our policy, the...",
+    "title": "Optimal Nonlinear Online Learning under Sequential Price",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Efficient_Training_of_Neural_Fractional-Order_Differential_Equation_via_Adjoint_Backpropagation.txt",
+    "content": "Efficient Training of Neural Fractional-Order Differential Equation\nvia Adjoint Backpropagation\nQiyu Kang1, Xuhao Li†2, Kai Zhao3, Wenjun Cui4, Yanan Zhao3, Weihua Deng5, Wee Peng Tay3\n1University of Science and Technology of China\n2Anhui University\n3Nanyang Technological University\n4Beijing Jiaotong University\n5Lanzhou University\nAbstract\nFractional-order differential equations (FDEs) enhance tradi-\ntional differential equations by extending the order of differen-\ntial operators from integers to real numbers, offering greater\nflexibility in modeling complex dynamical systems with non-\nlocal characteristics. Recent progress at the intersection of\nFDEs and deep learning has catalyzed a new wave of innova-\ntive models, demonstrating the potential to address challenges\nsuch as graph representation learning. However, training neu-\nral FDEs has primarily relied on direct differentiation through\nforward-pass operations in FDE numerical solvers, leading\nto increased memory usage and computati...",
+    "title": "Efficient Training of Neural Fractional-Order Differential Equation",
+    "authors": [
+      "extending the order of differen-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Universal_approximation_property_of_neural_stochastic_differential_equations.txt",
+    "content": "arXiv:2503.16696v1  [math.PR]  20 Mar 2025UNIVERSAL APPROXIMATION PROPERTY OF NEURAL STOCHASTIC\nDIFFERENTIAL EQUATIONS\nANNA P. KWOSSEK, DAVID J. PR ¨OMEL, AND JOSEF TEICHMANN\nAbstract. We identify various classes of neural networks that are able to approximate\ncontinuous functions locally uniformly subject to ﬁxed glo bal linear growth constraints. For\nsuch neural networks the associated neural stochastic diﬀe rential equations can approximate\ngeneral stochastic diﬀerentialequations, bothofItˆ odiﬀ usion type, arbitrarily well. Moreover,\nquantitative error estimates are derived for stochastic di ﬀerential equations with suﬃciently\nregular coeﬃcients.\nKey words: feedforward neural network, linear growth, neural stochas tic diﬀerential equa-\ntion, universal approximation theorem, ReLU activation fu nction, weighted function space.\nMSC 2020 Classiﬁcation: 41A29, 60H10, 68T07, 91G80.\n1.Introduction\nModeling approaches that hybridize the notion of diﬀerentia l equations with neural net-\nwor...",
+    "title": "arXiv:2503.16696v1  [math.PR]  20 Mar 2025UNIVERSAL APPROXIMATION PROPERTY OF NEURAL STOCHASTIC",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "neural networks"
+    ]
+  },
+  {
+    "filename": "A_Tale_of_Two_Classes:_Adapting_Supervised_Contrastive_Learning_to_Binary_Imbalanced_Datasets.txt",
+    "content": "A Tale of Two Classes:\nAdapting Supervised Contrastive Learning to Binary Imbalanced Datasets\nDavid Mildenberger1,2,*, Paul Hager1,*, Daniel Rueckert1,2,3, Martin J. Menten1,2,3\n1Technical University of Munich,2Munich Center for Machine Learning,3Imperial College London\n{david.mildenberger, paul.hager, daniel.rueckert, martin.menten }@tum.de\n*These authors contributed equally.\nAbstract\nSupervised contrastive learning (SupCon) has proven to be\na powerful alternative to the standard cross-entropy loss\nfor classification of multi-class balanced datasets. How-\never, it struggles to learn well-conditioned representations\nof datasets with long-tailed class distributions. This prob-\nlem is potentially exacerbated for binary imbalanced dis-\ntributions, which are commonly encountered during many\nreal-world problems such as medical diagnosis. In experi-\nments on seven binary datasets of natural and medical im-\nages, we show that the performance of SupCon decreases\nwith increasing class imbalance...",
+    "title": "A Tale of Two Classes:",
+    "authors": [
+      "measuring the"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "A_preliminary_data_fusion_study_to_assess_the_feasibility_of_Foundation_Process-Property_Models_in_Laser_Powder_Bed_Fusion.txt",
+    "content": "A preliminary data fusion study to assess the feasibility of\nFoundation Process-Property Models in Laser Powder Bed Fusion\nOriol Vendrell-Gallart1, Nima Negarandeh1, Zahra Zanjani Foumani1, Mahsa Amiri2, Lorenzo\nValdevit†2,3, and Ramin Bostanabad†1,4\n1Department of Mechanical and Aerospace Engineering, University of California, Irvine, CA,\n92697, USA\n2Materials and Manufacturing Technology Program, University of California, Irvine, CA, 92697,\nUSA\n3Department of Materials Science and Engineering, University of California, Irvine, CA, 92697,\nUSA\n4Department of Civil and Environmental Engineering, University of California, Irvine, CA,\n92697, USA\nAbstract\nFoundation models are at the forefront of an increasing number of critical applications. In regards to\ntechnologies such as additive manufacturing (AM), these models have the potential to dramatically acceler-\nate process optimization and, in turn, design of next generation materials. A major challenge that impedes\nthe construction of fou...",
+    "title": "A preliminary data fusion study to assess the feasibility of",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "foundation models",
+      "transfer learning",
+      "data fusion",
+      "additive manufacturing",
+      "gaussian pro-"
+    ]
+  },
+  {
+    "filename": "Malliavin-Bismut_Score-based_Diffusion_Models.txt",
+    "content": "Malliavin-Bismut Score-based Diffusion Models\nEhsan Mirafzali1, Utkarsh Gupta1, Patrick Wyrod1\nFrank Proske2,Daniele Venturi1,Razvan Marinescu1\n1University of California, Santa Cruz,2University of Oslo\n{smirafza,utgupta,pwyrod,venturi,ramarine}@ucsc.edu ,\nproske@math.uio.no\nAbstract\nWe introduce a new framework that employs Malliavin calculus to derive explicit\nexpressions for the score function—i.e., the gradient of the log-density—associated\nwith solutions to stochastic differential equations (SDEs). Our approach integrates\nclassical integration-by-parts techniques with modern tools, such as Bismut’s for-\nmula and Malliavin calculus, to address linear and nonlinear SDEs. In doing\nso, we establish a rigorous connection between the Malliavin derivative, its ad-\njoint (the Malliavin divergence or the Skorokhod integral), Bismut’s formula, and\ndiffusion generative models, thus providing a systematic method for computing\n∇logpt(x). For the linear case, we present a detailed study proving ...",
+    "title": "Malliavin-Bismut Score-based Diffusion Models",
+    "authors": [
+      "-parts techniques with modern tools",
+      "such as Bismut’s for-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "An_Accelerated_Bregman_Algorithm_for_ReLU-based_Symmetric_Matrix_Decomposition.txt",
+    "content": "JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2023 1\nAn Accelerated Bregman Algorithm for\nReLU-based Symmetric Matrix Decomposition\nQingsong Wang\nAbstract —Symmetric matrix decomposition is an active re-\nsearch area in machine learning. This paper focuses on exploiting\nthe low-rank structure of non-negative and sparse symmetric\nmatrices via the rectified linear unit (ReLU) activation func-\ntion. We propose the ReLU-based nonlinear symmetric matrix\ndecomposition (ReLU-NSMD) model, introduce an accelerated\nalternating partial Bregman (AAPB) method for its solution,\nand present the algorithm’s convergence results. Our algorithm\nleverages the Bregman proximal gradient framework to overcome\nthe challenge of estimating the global L-smooth constant in the\nclassic proximal gradient algorithm. Numerical experiments on\nsynthetic and real datasets validate the effectiveness of our model\nand algorithm.\nIndex Terms —Alternating minimization, Symmetric matrix\ndecomposition, ReLU function, Br...",
+    "title": "JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2023 1",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2023,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "Unsupervised_Joint_Learning_of_Optical_Flow_and_Intensity_with_Event_Cameras.txt",
+    "content": "Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras\nShuang Guo1, Friedhelm Hamann1,3and Guillermo Gallego1,2,3.\n1TU Berlin and Robotics Institute Germany,\n2Einstein Center for Digital Future,3Science of Intelligence Excellence Cluster.\nAbstract\nEvent cameras rely on motion to obtain information about\nscene appearance. In other words, for event cameras, mo-\ntion and appearance are seen both or neither, which are\nencoded in the output event stream. Previous works con-\nsider recovering these two visual quantities as separate\ntasks, which does not fit with the nature of event cameras\nand neglects the inherent relations between both tasks. In\nthis paper, we propose an unsupervised learning framework\nthat jointly estimates optical flow (motion) and image inten-\nsity (appearance), with a single network. Starting from the\nevent generation model, we newly derive the event-based\nphotometric error as a function of optical flow and image\nintensity, which is further combine...",
+    "title": "Unsupervised Joint Learning of Optical Flow and Intensity with Event Cameras",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "filename": "Nonparametric_Factor_Analysis_and_Beyond.txt",
+    "content": "Nonparametric Factor Analysis and Beyond\nYujia Zheng1Yang Liu2Jiaxiong Yao2Yingyao Hu†,3Kun Zhang†,1,4\n1Carnegie Mellon University\n2International Monetary Fund\n3Johns Hopkins University\n4Mohamed bin Zayed University of Artificial Intelligence\nAbstract\nNearly all identifiability results in unsuper-\nvised representation learning inspired by,\ne.g., independent component analysis, fac-\ntor analysis, and causal representation learn-\ning, rely on assumptions of additive inde-\npendent noise or noiseless regimes. In con-\ntrast, we study the more general case where\nnoise can take arbitrary forms, depend on la-\ntent variables, and be non-invertibly entan-\ngled within a nonlinear function. We pro-\npose a general framework for identifying la-\ntent variables in the nonparametric noisy set-\ntings. We first show that, under suitable\nconditions, the generative model is identi-\nfiable up to certain submanifold indetermi-\nnacies even in the presence of non-negligible\nnoise. Furthermore, under the struct...",
+    "title": "Nonparametric Factor Analysis and Beyond",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "artificial intelligence"
+    ]
+  },
+  {
+    "filename": "BEAC:_Imitating_Complex_Exploration_and_Task-oriented_Behaviors_for_Invisible_Object_Nonprehensile_Manipulation.txt",
+    "content": "BEAC: Imitating Complex Exploration and Task-oriented\nBehaviors for Invisible Object Nonprehensile Manipulation\nHirotaka Taharaa,b,∗, Takamitsu Matsubaraa\naNara Institute of Science and Technology, 630-0192, Nara, Japan\nbKobe City College of Technology, 651-2194, Hyogo, Japan\nAbstract\nApplying imitation learning (IL) is challenging to nonprehensile manipulation tasks\nof invisible objects with partial observations, such as excavating buried rocks. The\ndemonstrator must make such complex action decisions as exploring to find the ob-\nject and task-oriented actions to complete the task while estimating its hidden state,\nperhaps causing inconsistent action demonstration and high cognitive load problems.\nFor these problems, work in human cognitive science suggests that promoting the use\nof pre-designed, simple exploration rules for the demonstrator may alleviate the prob-\nlems of action inconsistency and high cognitive load. Therefore, when performing\nimitation learning from demonstrations u...",
+    "title": "BEAC: Imitating Complex Exploration and Task-oriented",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "imitation learning",
+      "partial observation",
+      "nonprehensile manipulation"
+    ]
+  },
+  {
+    "filename": "LoGoFair:_Post-Processing_for_Local_and_Global_Fairness_in_Federated_Learning.txt",
+    "content": "LoGoFair: Post-Processing for Local and Global Fairness in Federated Learning\nLi Zhang, Chaochao Chen*, Zhongxuan Han, Qiyong Zhong, Xiaolin Zheng\nZhejiang University\nzhanglizl80@gmail.com, {zjuccc, zxhan, youngzhong, xlzheng }@zju.edu.cn\nAbstract\nFederated learning (FL) has garnered considerable interest\nfor its capability to learn from decentralized data sources.\nGiven the increasing application of FL in decision-making\nscenarios, addressing fairness issues across different sensi-\ntive groups (e.g., female, male) in FL is crucial. Current re-\nsearch often focuses on facilitating fairness at each client’s\ndata ( local fairness ) or within the entire dataset across all\nclients ( global fairness ). However, existing approaches that\nfocus exclusively on either local or global fairness fail to ad-\ndress two key challenges: ( CH1 )Under statistical hetero-\ngeneity, global fairness does not imply local fairness, and\nvice versa. (CH2 )Achieving fairness under model-agnostic\nsetting. To tackl...",
+    "title": "LoGoFair: Post-Processing for Local and Global Fairness in Federated Learning",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Specifying_What_You_Know_or_Not_for_Multi-Label_Class-Incremental_Learning.txt",
+    "content": "Specifying What You Know or Not for Multi-Label Class-Incremental Learning\nAoting Zhang1,3, Dongbao Yang1,3*, Chang Liu5, Xiaopeng Hong4*, Yu Zhou2\n1Institute of Information Engineering, Chinese Academy of Sciences\n2VCIP & TMCC & DISSec, College of Computer Science, Nankai University\n3School of Cyber Security, University of Chinese Academy of Sciences\n4Harbin Institute of Technology\n5Tsinghua University\n{zhangaoting, yangdongbao }@iie.ac.cn, liuchang2022@tsinghua.edu.cn\nhongxiaopeng@ieee.org, yzhou@nankai.edu.cn\nAbstract\nExisting class incremental learning is mainly designed for\nsingle-label classification task, which is ill-equipped for\nmulti-label scenarios due to the inherent contradiction of\nlearning objectives for samples with incomplete labels. We\nargue that the main challenge to overcome this contradic-\ntion in multi-label class-incremental learning (MLCIL) lies\nin the model’s inability to clearly distinguish between known\nand unknown knowledge. This ambiguity hinders the model’...",
+    "title": "Specifying What You Know or Not for Multi-Label Class-Incremental Learning",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2022,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Online_Selective_Conformal_Prediction:_Errors_and_Solutions.txt",
+    "content": "Online Selective Conformal Prediction:\nErrors and Solutions\nYusuf Sale1,4and Aaditya Ramdas2,3\n1Institute of Computer Science, Ludwig-Maximilians Universit¨ at M¨ unchen\n2Department of Statistics and Data Science, Carnegie Mellon University\n3Machine Learning Department, Carnegie Mellon University\n4Munich Center for Machine Learning (MCML)\nAbstract\nIn online selective conformal inference, data arrives sequentially, and prediction intervals are con-\nstructed only when an online selection rule is met. Since online selections may break the exchange-\nability between the selected test datum and the rest of the data, one must correct for this by suitably\nselecting the calibration data. In this paper, we evaluate existing calibration selection strategies and\npinpoint some fundamental errors in the associated claims that guarantee selection-conditional cov-\nerage and control of the false coverage rate (FCR). To address these shortcomings, we propose novel\ncalibration selection strategies that p...",
+    "title": "Online Selective Conformal Prediction:",
+    "authors": [
+      "suitably"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "Sparse_Logit_Sampling:_Accelerating_Knowledge_Distillation_in_LLMs.txt",
+    "content": "Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs\nAnshumann* and Mohd Abbas Zaidi* and Akhil Kedia* and Jinwoo Ahn and Taehwak Kwon\nKangwook Lee and Haejun Lee and Joohyung Lee\nSamsung Research, Seoul\n{anshu.mann, abbas.zaidi, akhil.kedia, jinwoo.ahn, taehwak.kwon}@samsung.com\nAbstract\nKnowledge distillation can be a cost-effective\ntechnique to distill knowledge in Large Lan-\nguage Models, if the teacher output logits can\nbe pre-computed and cached. However, suc-\ncessfully applying this to pre-training remains\nlargely unexplored. In this work, we prove that\nnaive approaches for sparse knowledge distilla-\ntion such as caching Top-K probabilities, while\nintuitive, provide biased estimates of teacher\nprobability distribution to the student, resulting\nin suboptimal performance and calibration. We\npropose an importance-sampling-based method\n‘Random Sampling Knowledge Distillation’,\nwhich provides unbiased estimates, preserves\nthe gradient in expectation, and requires stor-\n...",
+    "title": "Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Deep_Q-Learning_with_Gradient_Target_Tracking.txt",
+    "content": "Deep Q-Learning with Gradient Target Tracking\nDonghwan Lee\nElectrical Engineering, KAIST\ndonghwan@kaist.ac.krBum Geun Park\nElectrical Engineering, KAIST\nj4t123@kaist.ac.kr\nTaeho Lee\nElectrical Engineering, KAIST\neho0228@kaist.ac.kr\nAbstract\nThis paper introduces Q-learning with gradient target tracking, a novel reinforce-\nment learning framework that provides a learned continuous target update mecha-\nnism as an alternative to the conventional hard update paradigm. In the standard\ndeep Q-network (DQN), the target network is a copy of the online network’s\nweights, held fixed for a number of iterations before being periodically replaced via\na hard update. While this stabilizes training by providing consistent targets, it intro-\nduces a new challenge: the hard update period must be carefully tuned to achieve\noptimal performance. To address this issue, we propose two gradient-based target\nupdate methods: DQN with asymmetric gradient target tracking (AGT2-DQN)\nand DQN with symmetric gradient...",
+    "title": "Deep Q-Learning with Gradient Target Tracking",
+    "authors": [
+      "providing consistent targets",
+      "it intro-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Structure_Is_Not_Enough:_Leveraging_Behavior_for_Neural_Network_Weight_Reconstruction.txt",
+    "content": "Accepted at the ICLR Workshop on Neural Network Weights as a New Data Modality 2025\nSTRUCTURE ISNOTENOUGH : LEVERAGING BEHAVIOR\nFOR NEURAL NETWORK WEIGHT RECONSTRUCTION\nL´eo Meynent1, Ivan Melev2, Konstantin Sch ¨urholt1, G¨oran Kauermann2, Damian Borth1\n1AIML Lab, University of St. Gallen, Switerland\n2Department of Statistics, Ludwig-Maximilians-University Munich, Germany\nCorrespondence: leo.meynent@unisg.ch\nABSTRACT\nThe weights of neural networks (NNs) have recently gained prominence as a new\ndata modality in machine learning, with applications ranging from accuracy and\nhyperparameter prediction to representation learning or weight generation. One\napproach to leverage NN weights involves training autoencoders (AEs), using con-\ntrastive and reconstruction losses. This allows such models to be applied to a wide\nvariety of downstream tasks, and they demonstrate strong predictive performance\nand low reconstruction error. However, despite the low reconstruction error, these\nAEs reconstruc...",
+    "title": "Accepted at the ICLR Workshop on Neural Network Weights as a New Data Modality 2025",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "the ICLR Workshop on Neural Network Weights as a New Data Modality ",
+    "year": 2025,
+    "tags": [
+      "machine learning",
+      "neural networks"
+    ]
+  },
+  {
+    "filename": "TreeSynth:_Synthesizing_Diverse_Data_from_Scratch_via_Tree-Guided_Subspace_Partitioning.txt",
+    "content": "TREESYNTH : Synthesizing Diverse Data from Scratch\nvia Tree-Guided Subspace Partitioning\nSheng Wang∗, Pengan Chen∗, Jingqi Zhou∗, Qintong Li\nThe University of Hong Kong\n{u3009618, cpa2001, u3011211, qtli}@connect.hku.hkJingwei Dong\nXi’an Jiaotong University\ndongjingwei@stu.xjtu.edu.cn\nJiahui Gao\nThe University of Hong Kong\nggaojiahui@gmail.comBoyang Xue, Jiyue Jiang\nThe Chinese University of Hong Kong\nbyxue@se.cuhk.edu.hk, jiangjy@link.cuhk.edu.hk\nLingpeng Kong, Chuan Wu\nThe University of Hong Kong\n{lpk, cwu}@cs.hku.hk\nAbstract\nModel customization requires high-quality and diverse datasets, but acquiring such\ndata remains challenging and costly. Although large language models (LLMs)\ncan synthesize training data, current approaches are constrained by limited seed\ndata, model bias and insufficient control over the generation process, resulting\nin limited diversity and biased distribution with the increase of data scales. To\ntackle this challenge, we present TREESYNTH , a tree-guided subs...",
+    "title": "TREESYNTH : Synthesizing Diverse Data from Scratch",
+    "authors": [
+      "xue@se.cuhk.edu.hk",
+      "jiangjy@link.cuhk.edu.hk"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2001,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Uncertainty-Driven_Modeling_of_Microporosity_and_Permeability_in_Clastic_Reservoirs_Using_Random_Forest.txt",
+    "content": " \nmanuscript submitted to Natural Resources Research  \nMarch 4th, 2025  \n1 \n \n Uncertainty -Driven Modeling of Microporosity and Permeability in Clastic \nReservoirs Using Random Forest  \nMuhammad Risha1*, Mohamed Elsaadany2, Paul Liu1 \n1North Carolina State University, Marine, Earth and Atmospheric Sciences Department, Raleigh, NC 27695, USA  \n2Geoscience Department, Universiti Teknologi PETRONAS, Seri Iskandar 32610, Perak, Malaysia  \nAbstract  \nPredicting microporosity and permeability in clastic \nreservoirs is a challenge in reservoir quality \nassessment, especially in formations where direct \nmeasurements are difficult or expensive. These \nreservoir properties are fundamental in determining \na reser voir's capacity for fluid storage and \ntransmission, yet conventional methods for \nevaluating them, such as Mercury Injection \nCapillary Pressure (MICP) and Scanning Electron \nMicroscopy (SEM), are resource -intensive. The aim \nof this study is  to develop a cost-effective machine \nlear...",
+    "title": "manuscript submitted to Natural Resources Research",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "uncertainty analysis",
+      "random forest"
+    ]
+  },
+  {
+    "filename": "Data-Driven_Optimization_of_EV_Charging_Station_Placement_Using_Causal_Discovery.txt",
+    "content": "Data-Driven Optimization of EV Charging Station Placement Using\nCausal Discovery\nJulius Stephan Junker1, Rong Hu2, Ziyue Li1and Wolfgang Ketter1\nAbstract — This paper addresses the critical challenge of\noptimizing electric vehicle charging station placement through\na novel data-driven methodology employing causal discovery\ntechniques. While traditional approaches prioritize economic\nfactors or power grid constraints, they often neglect empirical\ncharging patterns that ultimately determine station utilization.\nWe analyze extensive charging data from Palo Alto and Boulder\n(337,344 events across 100 stations) to uncover latent relation-\nships between station characteristics and utilization. Applying\nstructural learning algorithms (NOTEARS and DAGMA) to this\ndata reveals that charging demand is primarily determined by\nthree factors: proximity to amenities, EV registration density,\nand adjacency to high-traffic routes. These findings, consis-\ntent across multiple algorithms and urban contex...",
+    "title": "Data-Driven Optimization of EV Charging Station Placement Using",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Symbolic_Audio_Classification_via_Modal_Decision_Tree_Learning.txt",
+    "content": "ITADATA2024: The 3rdItalian Conference on Big Data and Data Science\nSymbolic Audio Classification via Modal Decision\nTree Learning\nEnrico Marzano1[0009−0001−1469−6497],\nGiovanni Pagliarini2[0000−0002−8403−3250],\nRiccardo Pasini2[0009−0009−2807−2245],\nGuido Sciavicco2[0000−0002−9221−879X], and\nIonel Eduard Stan3[0000−0001−9260−102X]\n1R&D Deparment, Gap S.r.l.u.\nUdine, Italy\n2Applied Computational Logic and Artificial Intelligence (ACLAI) Lab,\nDepartment of Mathematics and Computer Science, University of Ferrara\nFerrara, Italy\n3Database Systems Group, Faculty of Engineering, Free University of Bozen-Bolzano\nBolzano, Italy\nAbstract. The range of potential applications of acoustic analysis is\nwide. Classification of sounds, in particular, is a typical machine learning\ntask that received a lot of attention in recent years. The most common\napproaches to sound classification are subsymbolic, typically based on\nneural networks, and result in black-box models with high performances\nbut very low...",
+    "title": "ITADATA2024: The 3rdItalian Conference on Big Data and Data Science",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2024,
+    "tags": [
+      "symbolic learning ·audio classification ·modal logic ·"
+    ]
+  },
+  {
+    "filename": "Exploring_a_Principled_Framework_for_Deep_Subspace_Clustering.txt",
+    "content": "Published as a conference paper at ICLR 2025\nEXPLORING A PRINCIPLED FRAMEWORK FOR DEEP\nSUBSPACE CLUSTERING\nXianghan Meng†, Zhiyuan Huang†& Wei He\nBeijing University of Posts and Telecommunications, Beijing 100876, P.R. China\n{mengxianghan,huangzhiyuan,wei.he }@bupt.edu.cn\nXianbiao Qi & Rong Xiao\nIntellifusion, Shenzhen, P.R. China\nChun-Guang Li∗\nBeijing University of Posts and Telecommunications, Beijing 100876, P.R. China\nlichunguang@bupt.edu.cn\nABSTRACT\nSubspace clustering is a classical unsupervised learning task, built on a basic\nassumption that high-dimensional data can be approximated by a union of sub-\nspaces (UoS). Nevertheless, the real-world data are often deviating from the UoS\nassumption. To address this challenge, state-of-the-art deep subspace clustering\nalgorithms attempt to jointly learn UoS representations and self-expressive co-\nefficients. However, the general framework of the existing algorithms suffers\nfrom a catastrophic feature collapse and lacks a theoretical gu...",
+    "title": "Published as a conference paper at ICLR 2025",
+    "authors": [
+      "a union of sub-"
+    ],
+    "conference": "ICLR ",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Ordered_Topological_Deep_Learning:_a_Network_Modeling_Case_Study.txt",
+    "content": "Ordered Topological Deep Learning: a Network Modeling Case\nStudy\nGuillermo Bernárdez∗1, Miquel Ferriol-Galmés∗2, Carlos Güemes-Palau2, Mathilde Papillon1,\nPere Barlet-Ros2, Albert Cabellos-Aparicio2, Nina Miolane1\n1UC Santa Barbara, USA2Universitat Politecnica de Catalunya, Spain\nAbstract\nComputer networks are the foundation of modern digital infras-\ntructure, facilitating global communication and data exchange. As\ndemand for reliable high-bandwidth connectivity grows, advanced\nnetwork modeling techniques become increasingly essential to\noptimize performance and predict network behavior. Traditional\nmodeling methods, such as packet-level simulators and queueing\ntheory, have notable limitations –either being computationally\nexpensive or relying on restrictive assumptions that reduce accu-\nracy. In this context, the deep learning-based RouteNet family of\nmodels has recently redefined network modeling by showing an\nunprecedented cost-performance trade-off. In this work, we revisit\nRouteNe...",
+    "title": "Ordered Topological Deep Learning: a Network Modeling Case",
+    "authors": [
+      "showing an"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "deep learning"
+    ]
+  },
+  {
+    "filename": "Imagine_to_Hear:_Auditory_Knowledge_Generation_can_be_an_Effective_Assistant_for_Language_Models.txt",
+    "content": "Imagine to Hear: Auditory Knowledge Generation can be an Effective\nAssistant for Language Models\nSuho Yoo1*Hyunjong Ok1,2∗Jaeho Lee2†\n1HJ AILAB2POSTECH\n{uso7d0, hyunjong.ok}@gmail.com, jaeho.lee@postech.ac.kr\nAbstract\nLanguage models pretrained on text-only cor-\npora often struggle with tasks that require audi-\ntory commonsense knowledge. Previous work\naddresses this problem by augmenting the lan-\nguage model to retrieve knowledge from ex-\nternal audio databases. This approach has sev-\neral limitations, such as the potential lack of\nrelevant audio in databases and the high costs\nassociated with constructing and querying the\ndatabases. To address these issues, we pro-\npose Imagine to Hear, a novel approach that dy-\nnamically generates auditory knowledge using\ngenerative models. Our framework detects mul-\ntiple audio-related textual spans from the given\nprompt and generates corresponding auditory\nknowledge. We develop several mechanisms\nto efficiently process multiple auditory knowl-\nedg...",
+    "title": "Imagine to Hear: Auditory Knowledge Generation can be an Effective",
+    "authors": [
+      "augmenting the lan-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "EDiT:_Efficient_Diffusion_Transformers_with_Linear_Compressed_Attention.txt",
+    "content": "EDiT: Efficient Diffusion Transformers with Linear Compressed Attention\nPhilipp Becker1,2Abhinav Mehrotra1Ruchika Chavhan1Malcolm Chadwick1\nLuca Morreale1Mehdi Noroozi1Alberto Gil Ramos1Sourav Bhattacharya1\n1Samsung AI Center, Cambridge2Karlsruhe Institute of Technology\nAbstract\nDiffusion Transformers (DiTs) have emerged as a lead-\ning architecture for text-to-image synthesis, producing\nhigh-quality and photorealistic images. However, the\nquadratic scaling properties of the attention in DiTs hin-\nder image generation with higher resolution or on devices\nwith limited resources. This work introduces an efficient dif-\nfusion transformer (EDiT) to alleviate these efficiency bot-\ntlenecks in conventional DiTs and Multimodal DiTs (MM-\nDiTs). First, we present a novel linear compressed atten-\ntion method that uses a multi-layer convolutional network\nto modulate queries with local information while keys and\nvalues are spatially aggregated. Second, we formulate a\nhybrid attention scheme for mul...",
+    "title": "EDiT: Efficient Diffusion Transformers with Linear Compressed Attention",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "HiFi-Stream:_Streaming_Speech_Enhancement_with_Generative_Adversarial_Networks.txt",
+    "content": "PREPRINT 1\nHiFi-Stream: Streaming Speech Enhancement with\nGenerative Adversarial Networks\nEkaterina Dmitrieva, and Maksim Kaledin.\nAbstract —Speech Enhancement techniques have become core\ntechnologies in mobile devices and voice software simplifying\ndownstream speech tasks. Still, modern Deep Learning (DL)\nsolutions often require high amount of computational resources\nwhat makes their usage on low-resource devices challenging. We\npresent HiFi-Stream, an optimized version of recently published\nHiFi++ model. Our experiments demonstrate that HiFiStream\nsaves most of the qualities of the original model despite its\nsize and computational complexity: the lightest version has only\naround 490k parameters which is 3.5x reduction in comparison\nto the original HiFi++ making it one of the smallest and fastest\nmodels available. The model is evaluated in streaming setting\nwhere it demonstrates its superior performance in comparison\nto modern baselines.\nIndex Terms —Audio denoising, audio processing,...",
+    "title": "PREPRINT 1",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "deep learning"
+    ]
+  },
+  {
+    "filename": "3D_Neural_Operator-Based_Flow_Surrogates_around_3D_geometries:_Signed_Distance_Functions_and_Derivative_Constraints.txt",
+    "content": "3D Neural Operator-Based Flow Surrogates around 3D geometries:\nSigned Distance Functions and Derivative Constraints\nAli Rabeh, Adarsh Krishnamurthy, Baskar Ganapathysubramanian*\nAbstract\nAccurate modeling of fluid dynamics around complex geometries is critical for applications such as aerodynamic\noptimization and biomedical device design. While advancements in numerical methods and high-performance com-\nputing have improved simulation capabilities, the computational cost of high-fidelity 3D flow simulations remains\na significant challenge. Scientific machine learning (SciML) offers an efficient alternative, enabling rapid and reli-\nable flow predictions. In this study, we evaluate Deep Operator Networks (DeepONet) and Geometric-DeepONet, a\nvariant that incorporates geometry information via signed distance functions (SDFs), on steady-state 3D flow over\ncomplex objects. Our dataset consists of 1,000 high-fidelity simulations spanning Reynolds numbers from 10 to\n1,000, enabling comprehens...",
+    "title": "3D Neural Operator-Based Flow Surrogates around 3D geometries:",
+    "authors": [
+      "up to 32% compared to standard DeepONet. Moreover"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "Learning_to_Solve_Related_Linear_Systems.txt",
+    "content": "Learning to Solve Related Linear Systems\nDisha Hegde1\nd.hegde@soton.ac.ukJon Cockayne1\njon.cockayne@soton.ac.uk\n1University of Southampton\nSolving multiple parametrised related systems is an essential component\nof many numerical tasks. Borrowing strength from the solved systems and\nlearning will make this process faster. In this work, we propose a novel prob-\nabilistic linear solver over the parameter space. This leverages information\nfrom the solved linear systems in a regression setting to provide an efficient\nposterior mean and covariance. We advocate using this as companion regres-\nsion model for the preconditioned conjugate gradient method, and discuss\nthe favourable properties of the posterior mean and covariance as the initial\nguess and preconditioner. We also provide several design choices for this\ncompanion solver. Numerical experiments showcase the benefits of using our\nnovel solver in a hyperparameter optimisation problem.\n1. Introduction\nWe consider the problem of solving m...",
+    "title": "Learning to Solve Related Linear Systems",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Beyond_Accuracy:_What_Matters_in_Designing_Well-Behaved_Models?.txt",
+    "content": "Beyond Accuracy: What Matters in Designing Well-Behaved Models?\nRobin Hesse1*Do˘gukan Ba ˘gcı1*Bernt Schiele2\nSimone Schaub-Meyer1,3Stefan Roth1,3\n1Technical University of Darmstadt2Max Planck Institute for Informatics, SIC3hessian.AI*equal contribution\nAbstract\nDeep learning has become an essential part of computer\nvision, with deep neural networks (DNNs) excelling in pre-\ndictive performance. However, they often fall short in other\ncritical quality dimensions, such as robustness, calibration,\nor fairness. While existing studies have focused on a subset\nof these quality dimensions, none have explored a more gen-\neral form of “well-behavedness” of DNNs. With this work,\nwe address this gap by simultaneously studying nine differ-\nent quality dimensions for image classification. Through a\nlarge-scale study, we provide a bird’s-eye view by analyzing\n326 backbone models and how different training paradigms\nand model architectures affect the quality dimensions. We\nreveal various new insights...",
+    "title": "Beyond Accuracy: What Matters in Designing Well-Behaved Models?",
+    "authors": [
+      "simultaneously studying nine differ-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "deep learning",
+      "neural networks",
+      "computer vision"
+    ]
+  },
+  {
+    "filename": "Principal_Eigenvalue_Regularization_for_Improved_Worst-Class_Certified_Robustness_of_Smoothed_Classifiers.txt",
+    "content": "Principal Eigenvalue Regularization for Improved Worst-Class Certified\nRobustness of Smoothed Classifiers\nGaojie Jin1Tianjin Huang1Ronghui Mu1Xiaowei Huang2\nAbstract\nRecent studies have identified a critical challenge\nin deep neural networks (DNNs) known as “robust\nfairness”, where models exhibit significant dispar-\nities in robust accuracy across different classes.\nWhile prior work has attempted to address this\nissue in adversarial robustness, the study of worst-\nclass certified robustness for smoothed classifiers\nremains unexplored. Our work bridges this gap by\ndeveloping a PAC-Bayesian bound for the worst-\nclass error of smoothed classifiers. Through the-\noretical analysis, we demonstrate that the largest\neigenvalue of the smoothed confusion matrix fun-\ndamentally influences the worst-class error of\nsmoothed classifiers. Based on this insight, we in-\ntroduce a regularization method that optimizes the\nlargest eigenvalue of smoothed confusion matrix\nto enhance worst-class accuracy of ...",
+    "title": "Principal Eigenvalue Regularization for Improved Worst-Class Certified",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "neural networks"
+    ]
+  },
+  {
+    "filename": "Making_the_unmodulated_pyramid_wavefront_sensor_smart_II._First_on-sky_demonstration_of_extreme_adaptive_optics_with_deep_learning.txt",
+    "content": "Astronomy &Astrophysics manuscript no. main ©ESO 2025\nMarch 24, 2025\nLetter to the Editor\nMaking the unmodulated pyramid wavefront sensor smart\nII. First on-sky demonstration of extreme adaptive optics with deep learning\nR. Landman1, S. Y . Ha ffert1,2, J. D. Long3, J. R. Males2, L. M. Close2, W. B. Foster2, K. Van Gorkom2, O.\nGuyon2,4,5,6, A. D. Hedglen7, P. T. Johnson2, M. Y . Kautz4, J. K. Kueny4, J. Li2, J. Liberman4, J. Lumbres4,\nE. A. McEwen4, A. McLeod8, L. Schatz9, E. Tonucci1, and K. Twitchell4\n1Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands\ne-mail: rlandman@strw.leidenuniv.nl\n2Steward Observatory, The Unversity of Arizona, 933 North Cherry Avenue, Tucson, Arizona\n3Center for Computational Astrophysics, Flatiron Institute, 162 5th Avenue, New York, New York\n4Wyant College of Optical Sciences, The University of Arizona, 1630 E University Blvd, Tucson, Arizona\n5Subaru Telescope, National Observatory of Japan, National Institutes of Natural Sc...",
+    "title": "Astronomy &Astrophysics manuscript no. main ©ESO 2025",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "deep learning"
+    ]
+  },
+  {
+    "filename": "On_Privately_Estimating_a_Single_Parameter.txt",
+    "content": "On Privately Estimating a Single Parameter\nHilal Asi1John C. Duchi2Kunal Talwar1\n1Apple2Stanford University\nMarch 24, 2025\nAbstract\nWe investigate differentially private estimators for individual parameters within larger\nparametric models. While generic private estimators exist, the estimators we provide re-\npose on new local notions of estimand stability, and these notions allow procedures that\nprovide private certificates of their own stability. By leveraging these private certificates,\nwe provide computationally and statistical efficient mechanisms that release private statis-\ntics that are, at least asymptotically in the sample size, essentially unimprovable: they\nachieve instance optimal bounds. Additionally, we investigate the practicality of the al-\ngorithms both in simulated data and in real-world data from the American Community\nSurvey and US Census, highlighting scenarios in which the new procedures are successful\nand identifying areas for future work.\n1 Introduction\nThe chal...",
+    "title": "On Privately Estimating a Single Parameter",
+    "authors": [
+      "leveraging these private certificates"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Improving_the_End-to-End_Efficiency_of_Offline_Inference_for_Multi-LLM_Applications_Based_on_Sampling_and_Simulation.txt",
+    "content": "Improving the End-to-End Efficiency of Offline Inference for\nMulti-LLM Applications Based on Sampling and Simulation\nJingzhi Fang\nHKUST\njfangak@connect.ust.hkYanyan Shen\nShanghai Jiao Tong University\nshenyy@sjtu.edu.cn\nYue Wang\nShenzhen Institute of Computing Sciences\nywangby@connect.ust.hkLei Chen\nHKUST, HKUST(GZ)\nleichen@cse.ust.hk\nABSTRACT\nAs large language models (LLMs) have shown great success in\nmany tasks, they are used in various applications. While a lot of\nworks have focused on the efficiency of single-LLM application\n(e.g., offloading, request scheduling, parallelism strategy selection),\nmulti-LLM applications receive less attention, particularly in offline\ninference scenarios. In this work, we aim to improve the offline\nend-to-end inference efficiency of multi-LLM applications in the\nsingle-node multi-GPU environment. The problem involves two\nkey decisions: (1) determining which LLMs to run concurrently\neach time (we may not run all the models at the same time), and (2)\nsel...",
+    "title": "Improving the End-to-End Efficiency of Offline Inference for",
+    "authors": [
+      "@connect.ust.hkLei Chen"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "TeMP-TraG:_Edge-based_Temporal_Message_Passing_in_Transaction_Graphs.txt",
+    "content": "TeMP-TraG: Edge-based Temporal Message\nPassing in Transaction Graphs\nSteve Gounoue1,2( \u0000), Ashutosh Sao3, and Simon Gottschalk3\n1Data Science and Intelligent Systems Group (DSIS), University of Bonn, Bonn,\nGermany steve.gounoue@cs.uni-bonn.de\n2Lamarr Institute for Machine Learning and Artificial Intelligence, Bonn, Germany\n3L3S Research Center, Hannover, Germany {sao,gottschalk}@l3s.de\nAbstract. Transactiongraphs,whichrepresentfinancialandtradetrans-\nactions between entities such as bank accounts and companies, can re-\nveal patterns indicative of financial crimes like money laundering and\nfraud. However, effective detection of such cases requires node and edge\nclassification methods capable of addressing the unique challenges of\ntransaction graphs, including rich edge features, multigraph structures\nand temporal dynamics. To tackle these challenges, we propose TeMP-\nTraG,anovelgraphneuralnetworkmechanismthatincorporatestempo-\nral dynamics into message passing. TeMP-TraG prioritises mor...",
+    "title": "TeMP-TraG: Edge-based Temporal Message",
+    "authors": [
+      "6.19%on average. Our re-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "graph neural networks ·multigraphs ·temporal graphs ·"
+    ]
+  },
+  {
+    "filename": "Preference-Guided_Diffusion_for_Multi-Objective_Offline_Optimization.txt",
+    "content": "Preference-Guided Diffusion for Multi-Objective Offline\nOptimization\nYashas Annadani1,3, Syrine Belakaria2, Stefano Ermon2, Stefan Bauer1,3, and Barbara E.\nEngelhardt2, 4\n1Technical University of Munich2Stanford University3Helmholtz AI, Munich\n4Gladstone Institutes\nAbstract\nOffline multi-objective optimization aims to identify Pareto-optimal solutions given a dataset of designs\nand their objective values. In this work, we propose a preference-guided diffusion model that generates\nPareto-optimal designs by leveraging a classifier-based guidance mechanism. Our guidance classifier is\na preference model trained to predict the probability that one design dominates another, directing the\ndiffusion model toward optimal regions of the design space. Crucially, this preference model generalizes\nbeyond the training distribution, enabling the discovery of Pareto-optimal solutions outside the observed\ndataset. We introduce a novel diversity-aware preference guidance, augmenting Pareto dominance pre...",
+    "title": "Preference-Guided Diffusion for Multi-Objective Offline",
+    "authors": [
+      "leveraging a classifier-based guidance mechanism. Our guidance classifier is"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Neuro-Symbolic_Scene_Graph_Conditioning_for_Synthetic_Image_Dataset_Generation.txt",
+    "content": "NEURO -SYMBOLIC SCENE GRAPH CONDITIONING FOR\nSYNTHETIC IMAGE DATASET GENERATION\nGiacomo Savazzi, Eugenio Lomurno, Cristian Sbrolli, Agnese Chiatti, Matteo Matteucci\nPolitecnico di Milano\nDepartment of Electronics, Information and Bioengineering\nVia Ponzio 34/5, 20133 Milan, Italy\n{giacomo.savazzi}@mail.polimi.it\n{eugenio.lomurno, cristian.sbrolli}@polimi.it\n{agnese.chiatti, matteo.matteucci}@polimi.it\nABSTRACT\nAs machine learning models increase in scale and complexity, obtaining sufficient training data\nhas become a critical bottleneck due to acquisition costs, privacy constraints, and data scarcity in\nspecialised domains. While synthetic data generation has emerged as a promising alternative, a notable\nperformance gap remains compared to models trained on real data, particularly as task complexity\ngrows. Concurrently, Neuro-Symbolic methods, which combine neural networks’ learning strengths\nwith symbolic reasoning’s structured representations, have demonstrated significant potential ...",
+    "title": "NEURO -SYMBOLIC SCENE GRAPH CONDITIONING FOR",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2013,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Unitless_Unrestricted_Markov-Consistent_SCM_Generation:_Better_Benchmark_Datasets_for_Causal_Discovery.txt",
+    "content": "Proceedings of Machine Learning Research TBD:1–26, 2025 4th Conference on Causal Learning and Reasoning\nUnitless Unrestricted Markov-Consistent SCM Generation:\nBetter Benchmark Datasets for Causal Discovery\nRebecca J. Herman REBECCA .HERMAN @TU-DRESDEN .DE\nCenter for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI), Dresden/Leipzig, Germany,\nGerman Aerospace Center (DLR), Institute of Data Science, Jena, Germany\nJonas Wahl JONAS .WAHL @DFKI .DE\nGerman Research Centre for Artificial Intelligence (DFKI), Berlin, Germany\nUrmi Ninad URMI .NINAD @TU-BERLIN .DE\nBerlin Institute of Technology (TUB), Institute of Computer Engineering and Microelectronics, Germany\nJakob Runge JAKOB .RUNGE @TU-DRESDEN .DE\nCenter for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI), Dresden/Leipzig, Germany\nBerlin Institute of Technology (TUB), Institute of Computer Engineering and Microelectronics, Germany\nEditors: Biwei Huang and Mathias Drton\nAbstract\nCausal discovery aims to extrac...",
+    "title": "Proceedings of Machine Learning Research TBD:1–26, 2025 4th Conference on Causal Learning and Reasoning",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "causal discovery",
+      "benchmarking",
+      "data generation",
+      "sortability",
+      "time series"
+    ]
+  },
+  {
+    "filename": "Not_Only_Text:_Exploring_Compositionality_of_Visual_Representations_in_Vision-Language_Models.txt",
+    "content": "Not Only Text: Exploring Compositionality of Visual Representations\nin Vision-Language Models\nDavide Berasi1Matteo Farina2Massimiliano Mancini2\nElisa Ricci1,2Nicola Strisciuglio3\n1Fondazione Bruno Kessler2University of Trento3University of Twente\nAbstract\nVision-Language Models (VLMs) learn a shared feature\nspace for text and images, enabling the comparison of in-\nputs of different modalities. While prior works demon-\nstrated that VLMs organize natural language representa-\ntions into regular structures encoding composite meanings,\nit remains unclear if compositional patterns also emerge\nin the visual embedding space. In this work, we investi-\ngate compositionality in the image domain, where the anal-\nysis of compositional properties is challenged by noise and\nsparsity of visual data. We address these problems and\npropose a framework, called Geodesically Decomposable\nEmbeddings (GDE), that approximates image representa-\ntions with geometry-aware compositional structures in the\nlatent sp...",
+    "title": "Not Only Text: Exploring Compositionality of Visual Representations",
+    "authors": [
+      "noise"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Do_regularization_methods_for_shortcut_mitigation_work_as_intended?.txt",
+    "content": "Do Regularization Methods for Shortcut Mitigation Work As\nIntended?\nHaoyang Hong Ioanna Papanikolaou Sonali Parbhoo\nImperial College London Imperial College London Imperial College London\nAbstract\nMitigating shortcuts, where models exploit\nspurious correlations in training data, re-\nmains a significant challenge for improv-\ning generalization. Regularization methods\nhave been proposed to address this issue\nby enhancing model generalizability. How-\never, we demonstrate that these methods can\nsometimes overregularize, inadvertently sup-\npressing causal features along with spurious\nones. In this work, we analyze the theo-\nretical mechanisms by which regularization\nmitigates shortcuts and explore the limits of\nits effectiveness. Additionally, we identify\nthe conditions under which regularization can\nsuccessfully eliminate shortcuts without com-\npromising causal features. Through experi-\nments on synthetic and real-world datasets,\nour comprehensive analysis provides valuable\ninsights into t...",
+    "title": "Do Regularization Methods for Shortcut Mitigation Work As",
+    "authors": [
+      "enhancing model generalizability. How-"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "NdLinear_Is_All_You_Need_for_Representation_Learning.txt",
+    "content": "NdLinear Is All You Need for Representation Learning\nAlex Reneau1Jerry Yao-Chieh Hu2Zhongfang Zhuang3Ting-Chun Liu4\nEnsemble AI\nAbstract\nMany high-impact machine learning tasks involve multi-dimensional data (e.g., images, vol-\numetric medical scans, multivariate time-series). Yet, most neural architectures flatten inputs,\ndiscarding critical cross-dimension information. We introduce NdLinear, a novel linear trans-\nformation that preserves these structures without extra overhead. By operating separately\nalong each dimension, NdLinear captures dependencies that standard fully connected lay-\ners overlook. Extensive experiments across convolutional, recurrent, and transformer-based\nnetworks show significant improvements in representational power and parameter efficiency.\nCrucially, NdLinear serves as a foundational building block for large-scale foundation models\nby operating on any unimodal or multimodal data in its native form. This removes the need\nfor flattening or modality-specific p...",
+    "title": "NdLinear Is All You Need for Representation Learning",
+    "authors": [
+      "operating separately"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning"
+    ]
+  },
+  {
+    "filename": "ML-Based_Bidding_Price_Prediction_for_Pay-As-Bid_Ancillary_Services_Markets:_A_Use_Case_in_the_German_Control_Reserve_Market.txt",
+    "content": "ML-B ASED BIDDING PRICE PREDICTION FOR PAY-AS-BID\nANCILLARY SERVICES MARKETS : A U SECASE IN THE GERMAN\nCONTROL RESERVE MARKET\nVincent Bezold1, *\nFraunhofer Institute for Manufacturing Engineering and Automation IPA,\nNobelstraße 12, Stuttgart, 70569, Germany\nORCID: 0009-0006-4430-4710\nvincent.bezold@ipa.fraunhofer.de\nLukas Baur1\nFraunhofer Institute for Manufacturing Engineering and Automation IPA,\nNobelstraße 12, Stuttgart, 70569, Germany\nORCID: 0000-0002-6265-9877\nlukas.baur@ipa.fraunhofer.de\nAlexander Sauer\nFraunhofer Institute for Manufacturing Engineering and Automation IPA,\nNobelstraße 12, Stuttgart, 70569, Germany\nORCID: 0000-0003-3822-1514\nMarch 24, 2025\n1equal contribution\n*corresponding author\nABSTRACT\nThe increasing integration of renewable energy sources has led to greater volatility and unpredictability\nin electricity generation, posing challenges to grid stability. Ancillary service markets, such as the\nGerman control reserve market, allow industrial consumers and produce...",
+    "title": "ML-B ASED BIDDING PRICE PREDICTION FOR PAY-AS-BID",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "CAARMA:_Class_Augmentation_with_Adversarial_Mixup_Regularization.txt",
+    "content": "CAARMA: Class Augmentation with Adversarial Mixup Regularization\nMassa Baali, Xiang Li, Hao Chen, Rita Singh, Bhiksha Raj\nCarnegie Mellon University\nmbaali@cs.cmu.edu\nAbstract\nSpeaker verification is a typical zero-shot learn-\ning task, where inference of unseen classes is\nperformed by comparing embeddings of test\ninstances to known examples. The models per-\nforming inference must hence naturally gen-\nerate embeddings that cluster same-class in-\nstances compactly, while maintaining separa-\ntion across classes. In order to learn to do so,\nthey are typically trained on a large number\nof classes (speakers), often using specialized\nlosses. However real-world speaker datasets of-\nten lack the class diversity needed to effectively\nlearn this in a generalizable manner. We intro-\nduce CAARMA, a class augmentation frame-\nwork that addresses this problem by generating\nsynthetic classes through data mixing in the\nembedding space, expanding the number of\ntraining classes. To ensure the authenticit...",
+    "title": "CAARMA: Class Augmentation with Adversarial Mixup Regularization",
+    "authors": [
+      "comparing embeddings of test"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "When_Debate_Fails:_Bias_Reinforcement_in_Large_Language_Models.txt",
+    "content": "Preprint.\nWHEN DEBATE FAILS :\nBIASREINFORCEMENT IN LARGE LANGUAGE MODELS\nJihwan Oh∗, Minchan Jeong∗, Jongwoo Ko & Se-Young Yun†\nKim Jaechul Graduate School of AI, KAIST\n{ericoh929, mcjeong, jongwoo.ko, yunseyoung }@kaist.ac.kr\nABSTRACT\nLarge Language Models (LLMs) solve complex problems using training-free meth-\nods like prompt engineering and in-context learning, yet ensuring reasoning correct-\nness remains challenging. While self-correction methods such as self-consistency\nand self-refinement aim to improve reliability, they often reinforce biases due to the\nlack of effective feedback mechanisms. Multi-Agent Debate (MAD) has emerged\nas an alternative, but we identify two key limitations: bias reinforcement, where\ndebate amplifies model biases instead of correcting them, and lack of perspective\ndiversity, as all agents share the same model and reasoning patterns, limiting true de-\nbate effectiveness. To systematically evaluate these issues, we introduce MetaNIM\nArena , a benchmark des...",
+    "title": "Preprint.",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Robustness_of_deep_learning_classification_to_adversarial_input_on_GPUs:_asynchronous_parallel_accumulation_is_a_source_of_vulnerability.txt",
+    "content": "Robustness of deep learning classification to\nadversarial input on GPUs: asynchronous parallel\naccumulation is a source of vulnerability\nSanjif Shanmugavelu1, Mathieu Taillefumier2, Christopher Culver1, Vijay\nGanesh3, Oscar Hernandez4, and Ada Sedova4\n1Groq Inc.,2ETH Zurich/CSCS,3Georgia Institute of Technology,3Oak Ridge\nNational Laboratory\nsshanmugavelu@groq.com, tmathieu@ethz.ch, sedovaaa@ornl.gov\nAbstract. The ability of machine learning (ML) classification models\nto resist small, targeted input perturbations—known as adversarial at-\ntacks—is a key measure of their safety and reliability. We show that\nfloating-point non associativity (FPNA) coupled with asynchronous par-\nallel programming on GPUs is sufficient to result in misclassification,\nwithout any perturbation to the input. Additionally, we show this mis-\nclassification is particularly significant for inputs close to the decision\nboundary and that standard adversarial robustness results may be over-\nestimated up to 4.6% when ...",
+    "title": "Robustness of deep learning classification to",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "machine learning",
+      "deep learning"
+    ]
+  },
+  {
+    "filename": "Offline_Model-Based_Optimization:_Comprehensive_Review.txt",
+    "content": "Offline Model-Based Optimization: Comprehensive Review\nMinsu Kim∗minsu.kim@mila.quebec\nMila - Quebec AI Institute/KAIST\nJiayao (Claris) Gu∗jia.yao.gu@mail.mcgill.ca\nMila - Quebec AI Institute/McGill University\nYe Yuan ye.yuan3@mail.mcgill.ca\nMila - Quebec AI Institute/McGill University\nTaeyoung Yun taeyoung.yun@mila.quebec\nMila - Quebec AI Institute/KAIST\nZixuan Liu zucksliu@cs.washington.edu\nUniversity of Washington\nYoshua Bengio yoshua.bengio@mila.quebec\nMila - Quebec AI Institute/University of Montreal\nCan (Sam) Chen†can.chen@mila.quebec\nMila - Quebec AI Institute/University of Montreal\nAbstract\nOffline optimization is a fundamental challenge in science and engineering, where the goal is to\noptimize black-box functions using only offline datasets. This setting is particularly relevant\nwhen querying the objective function is prohibitively expensive or infeasible, with applications\nspanning protein engineering, material discovery, neural architecture search, and beyond. The\nmain diffi...",
+    "title": "Offline Model-Based Optimization: Comprehensive Review",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Limits_of_trust_in_medical_AI.txt",
+    "content": "1 \n \nThis is a pre-print version of an article  published as : \nHatherley, Joshua. 2020. Limits of trust in medical AI.  Journal of Medical Ethics  46(7): 478 -\n481. 10.1136/medethics -2019 -105935 . \nPlease cite that version.  \n2 \n \nLIMITS OF TRUST IN MEDICAL  AI \nJoshua Hatherley  \n \n \nAbstract : Artificial intelligence (AI) is expected to revolutionise the practice of medicine. \nRecent advancements in the field of deep learning have demonstrated success \nin variety of clinical tasks: detecting diabetic retinopathy from images, predict-\ning hospital re admissions, aiding in the discovery of new drugs, etc. AI’s pro-\ngress in medicine, however, has led to concerns regarding the potential effects \nof this technology upon relationships of trust in clinical practice. In this paper, \nI will argue that there is me rit to these concerns, since AI systems can be relied \nupon, and are capable of reliability, but cannot be trusted, and are not capable \nof trustworthiness. Insofar as patients a...",
+    "title": "This is a pre-print version of an article  published as :",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2020,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Multi-Span_Optical_Power_Spectrum_Evolution_Modeling_using_ML-based_Multi-Decoder_Attention_Framework.txt",
+    "content": "Multi-Span Optical Power Spectrum Evolution Modeling using\nML-based Multi-Decoder Attention Framework\nAgastya Raj*,(1), Zehao Wang(2), Frank Slyne(1), Tingjun Chen(2), Dan Kilper(1), Marco Ruffini(1)\n(1)CONNECT Centre, School of Computer Science and Statistics and School of Engineering, Trinity\nCollege Dublin, Ireland *rajag@tcd.ie\n(2)Duke University, Department of Electrical and Computer Engineering, Durham, NC, USA\nAbstract We implement a ML-based attention framework with component-specific decoders, improving\noptical power spectrum prediction in multi-span networks. By reducing the need for in-depth training on\neach component, the framework can be scaled to multi-span topologies with minimal data collection,\nmaking it suitable for brown-field scenarios. ©2024 The Author(s)\nIntroduction\nToday’s network operators depend on advanced\nnetworks, which include reconfigurable optical\nAdd-Drop Multiplexer ( ROADM ) systems using\nflex-grid Dense Wavelength Division Multiplexing\n(DWDM ), for h...",
+    "title": "Multi-Span Optical Power Spectrum Evolution Modeling using",
+    "authors": [
+      "reducing the need for in-depth training on"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2024,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Causally_Aligned_Curriculum_Learning.txt",
+    "content": "Published as a conference paper at ICLR 2024\nCAUSALLY ALIGNED CURRICULUM LEARNING\nMingxuan Li andJunzhe Zhang andElias Bareinboim\nCausal Artificial Intelligence Lab, Columbia University, USA\n{ml,junzhez,eb}@cs.columbia.edu\nABSTRACT\nA pervasive challenge in Reinforcement Learning (RL) is the “curse of dimen-\nsionality” which is the exponential growth in the state-action space when optimiz-\ning a high-dimensional target task. The framework of curriculum learning trains\nthe agent in a curriculum composed of a sequence of related and more manage-\nable source tasks. The expectation is that when some optimal decision rules are\nshared across source tasks and the target task, the agent could more quickly pick\nup the necessary skills to behave optimally in the environment, thus accelerating\nthe learning process. However, this critical assumption of invariant optimal de-\ncision rules does not necessarily hold in many practical applications, specifically\nwhen the underlying environment contains u...",
+    "title": "Published as a conference paper at ICLR 2024",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "ICLR ",
+    "year": 2024,
+    "tags": [
+      "reinforcement learning",
+      "artificial intelligence"
+    ]
+  },
+  {
+    "filename": "DiTEC-WDN:_A_Large-Scale_Dataset_of_Hydraulic_Scenarios_across_Multiple_Water_Distribution_Networks.txt",
+    "content": "DiTEC-WDN: A Large-Scale Dataset of Hydraulic\nScenarios across Multiple Water Distribution\nNetworks\nHuy Truong1,*,†, Andr ´es Tello1,*,†, Alexander Lazovik1, and Victoria Degeler2\n1Bernoulli Institute, University of Groningen, Groningen, The Netherlands\n2Informatics Institute, University of Amsterdam, Amsterdam, The Netherlands\n*corresponding author(s): Huy Truong, Andr ´es Tello (h.c.truong@rug.nl, andres.tello@rug.nl)\n†these authors contributed equally to this work\nABSTRACT\nPrivacy restrictions hinder the sharing of real-world Water Distribution Network (WDN) models, limiting the application of\nemerging data-driven machine learning, which typically requires extensive observations. To address this challenge, we propose\nthe dataset DiTEC-WDN that comprises 36,000 unique scenarios simulated over either short-term (24 hours) or long-term (1\nyear) periods. We constructed this dataset using an automated pipeline that optimizes crucial parameters (e.g., pressure, flow\nrate, and demand patte...",
+    "title": "DiTEC-WDN: A Large-Scale Dataset of Hydraulic",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Glivenko-Cantelli_for_$f$-divergence.txt",
+    "content": "GLIVENKO–CANTELLI FOR f-DIVERGENCE\nHAOMING WANG AND LEK-HENG LIM\nAbstract. We extend the celebrated Glivenko–Cantelli theorem, sometimes called the fundamen-\ntal theorem of statistics, from its standard setting of total variation distance to all f-divergences. A\nkey obstacle in this endeavor is to define f-divergence on a subcollection of a σ-algebra that forms\naπ-system but not a σ-subalgebra. This is a side contribution of our work. We will show that this\nnotion of f-divergence on the π-system of rays preserves nearly all known properties of standard\nf-divergence, yields a novel integral representation of the Kolmogorov–Smirnov distance, and has\na Glivenko–Cantelli theorem. We will also discuss the prospects of a Vapnik–Chervonenkis theory\nforf-divergence.\n1.Introduction\nThe Glivenko–Cantelli theorem [22, 8] is a cornerstone of empirical process theory. It is likely\nthe best known statement regarding the asymptotic behavior of stochastic processes formed by\nempirical measures [16]. I...",
+    "title": "GLIVENKO–CANTELLI FOR f-DIVERGENCE",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Deterministic_AI_Agent_Personality_Expression_through_Standard_Psychological_Diagnostics.txt",
+    "content": "Allora Decentralized Intelligence 2, 15–39; 2025 March 24 doi:10.70235/allora.0x20015\nDeterministic AI Agent Personality Expression\nthrough Standard Psychological Diagnostics\nJ. M. Diederik Kruijssen & Nicholas Emmons\nAllora Foundation\nAbstract\nArtificial intelligence (AI) systems powered by large language models have become increasingly prevalent in modern\nsociety, enabling a wide range of applications through natural language interaction. As AI agents proliferate in our daily\nlives, their generic and uniform expressiveness presents a significant limitation to their appeal and adoption. Personality\nexpression represents a key prerequisite for creating more human-like and distinctive AI systems. We show that AI mod-\nels can express deterministic and consistent personalities when instructed using established psychological frameworks,\nwith varying degrees of accuracy depending on model capabilities. We find that more advanced models like GPT-4o and\no1 demonstrate the highest accuracy in ...",
+    "title": "Allora Decentralized Intelligence 2, 15–39; 2025 March 24 doi:10.70235/allora.0x20015",
+    "authors": [
+      "large language models have become increasingly prevalent in modern"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "artificial intelligence"
+    ]
+  },
+  {
+    "filename": "A_Learnability_Analysis_on_Neuro-Symbolic_Learning.txt",
+    "content": "A Learnability Analysis on Neuro-Symbolic Learning\nHao-Yuan He ,Ming Li\nNational Key Laboratory for Novel Software Technology, Nanjing University, China\nSchool of Artificial Intelligence, Nanjing University, China\n{hehy,lim }@lamda.nju.edu.cn\nAbstract\nThis paper analyzes the learnability of neuro-symbolic (NeSy) tasks in hybrid systems, such as probabilistic\nNeSy methods and abductive learning. We demonstrate that the learnability of NeSy tasks can be characterized\nby their derived constraint satisfaction problems (DCSPs). Specifically, a task is learnable if the corresponding\nDCSP has a unique solution; otherwise, it is unlearnable . For learnable tasks, we derive the corresponding\nsample complexity. For general tasks, we establish the asymptotic error and demonstrate that the expected error\nscales with the disagreement among solutions. Our results offer a principled approach to determining learnability\nand provide insights for new algorithms.\n1. Introduction\nNeuro-symbolic learning (...",
+    "title": "A Learnability Analysis on Neuro-Symbolic Learning",
+    "authors": [
+      "their derived constraint satisfaction problems (DCSPs). Specifically",
+      "a task is learnable if the corresponding"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "artificial intelligence"
+    ]
+  },
+  {
+    "filename": "FactSelfCheck:_Fact-Level_Black-Box_Hallucination_Detection_for_LLMs.txt",
+    "content": "FactSelfCheck: Fact-Level Black-Box Hallucination Detection for LLMs\nAlbert Sawczyn1Jakub Binkowski1Denis Janiak1\nBogdan Gabrys2Tomasz Kajdanowicz1\n1Wrocław University of Science and Technology\n2University of Technology Sydney\nalbert.sawczyn@pwr.edu.pl\nAbstract\nLarge Language Models (LLMs) frequently\ngenerate hallucinated content, posing signif-\nicant challenges for applications where fac-\ntuality is crucial. While existing hallucina-\ntion detection methods typically operate at the\nsentence level or passage level, we propose\nFactSelfCheck, a novel black-box sampling-\nbased method that enables fine-grained fact-\nlevel detection. Our approach represents text\nas knowledge graphs consisting of facts in the\nform of triples. Through analyzing factual\nconsistency across multiple LLM responses,\nwe compute fine-grained hallucination scores\nwithout requiring external resources or train-\ning data. Our evaluation demonstrates that\nFactSelfCheck performs competitively with\nleading sampling-based me...",
+    "title": "FactSelfCheck: Fact-Level Black-Box Hallucination Detection for LLMs",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Benign_Overfitting_with_Quantum_Kernels.txt",
+    "content": "Benign Overfitting with Quantum Kernels\nJoachim Tomasi1,2, Sandrine Anthoine2, and Hachem Kadri1\n1Aix-Marseille University, CNRS, LIS, Marseille, France\n2Aix-Marseille University, CNRS, I2M, Marseille, France\n{firstname.lastname }@univ-amu.fr\nAbstract\nQuantum kernels quantify similarity between data points by measuring the inner product\nbetween quantum states, computed through quantum circuit measurements. By embedding\ndata into quantum systems, quantum kernel feature maps, that may be classically intractable\nto compute, could efficiently exploit high-dimensional Hilbert spaces to capture complex pat-\nterns. However, designing effective quantum feature maps remains a major challenge. Many\nquantum kernels, such as the fidelity kernel, suffer from exponential concentration, leading\nto near-identity kernel matrices that fail to capture meaningful data correlations and lead\nto overfitting and poor generalization. In this paper, we propose a novel strategy for con-\nstructing quantum kernels...",
+    "title": "Benign Overfitting with Quantum Kernels",
+    "authors": [
+      "measuring the inner product"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Safe_and_Reliable_Diffusion_Models_via_Subspace_Projection.txt",
+    "content": "1\nSafe and Reliable Diffusion Models via Subspace\nProjection\nHuiqiang Chen, Tianqing Zhu*, Member, IEEE Linlin Wang, Xin Yu, Longxiang Gao, Senior\nMember, IEEE Wanlei Zhou Fellow, IEEE\nAbstract —Large-scale text-to-image (T2I) diffusion models\nhave revolutionized image generation, enabling the synthesis of\nhighly detailed visuals from textual descriptions. However, these\nmodels may inadvertently generate inappropriate content, such\nas copyrighted works or offensive images. While existing methods\nattempt to eliminate specific unwanted concepts, they often fail\nto ensure complete removal—allowing the concept to reappear\nin subtle forms. For instance, a model may successfully avoid\ngenerating images in Van Gogh’s style when explicitly prompted\nwith “Van Gogh”, yet still reproduce his signature artwork when\ngiven the prompt “Starry Night”. In this paper, we propose\nSAFER, a novel and efficient approach for thoroughly removing\ntarget concepts from diffusion models. At a high level, SAFER\nis...",
+    "title": "Safe and Reliable Diffusion Models via Subspace",
+    "authors": [
+      "the observed low-dimensional structure of the text"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "filename": "Calibration_Strategies_for_Robust_Causal_Estimation:_Theoretical_and_Empirical_Insights_on_Propensity_Score_Based_Estimators.txt",
+    "content": "Calibration Strategies for Robust Causal Estimation:\nTheoretical and Empirical Insights on Propensity Score\nBased Estimators\nJan Rabenseifner1,2,†, Sven Klaassen2,1, Jannis Kueck3, and Philipp Bach1\n1University of Hamburg, Germany\n2Economic AI, Germany\n3Heinrich Heine University D ¨usseldorf, D ¨usseldorf Institute for Competition Economics, Germany\nMarch 24, 2025\nAbstract\nThe partitioning of data for estimation and calibration critically impacts the perfor-\nmance of propensity score based estimators like inverse probability weighting (IPW)\nand double/debiased machine learning (DML) frameworks. We extend recent advances\nin calibration techniques for propensity score estimation, improving the robustness of\npropensity scores in challenging settings such as limited overlap, small sample sizes, or\nunbalanced data. Our contributions are twofold: First, we provide a theoretical anal-\nysis of the properties of calibrated estimators in the context of DML. To this end, we\nrefine existing calibr...",
+    "title": "Calibration Strategies for Robust Causal Estimation:",
+    "authors": [
+      "Unknown Author"
+    ],
+    "conference": "Unknown Venue",
+    "year": 2025,
+    "tags": [
+      "general"
+    ]
+  }
+]

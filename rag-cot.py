@@ -70,7 +70,7 @@ class RAGSystem:
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[
-                {"role": "system", "content": "Extract the key contribution or main point from the given text in one concise sentence."},
+                {"role": "system", "content": "Carefully read through the document and consider what its main topics are and why they are important. Then, extract the key contribution or main point from the given text in one concise sentence."},
                 {"role": "user", "content": document}
             ],
             max_tokens=100,

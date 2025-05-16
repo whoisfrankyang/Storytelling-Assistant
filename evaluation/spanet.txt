@@ -1,0 +1,21 @@
+Robot-Assisted Feeding: Generalizing Skewering Strategies across Food Items on a Plate
+
+Abstract. A robot-assisted feeding system must successfully acquire
+many di↵erent food items. A key challenge is the wide variation in the
+physical properties of food, demanding diverse acquisition strategies that
+are also capable of adapting to previously unseen items. Our key insight
+is that items with similar physical properties will exhibit similar success
+rates across an action space, allowing the robot to generalize its actions to
+previously unseen items. To better understand which skewering strategy
+works best for each food item, we collected a dataset of 2450 robot bite
+acquisition trials for 16 food items with varying properties. Analyzing
+the dataset provided insights into how the food items’ surrounding environment,
+fork pitch, and fork roll angles a↵ect bite acquisition success.
+We then developed a bite acquisition framework that takes the image of
+a full plate as an input, segments it into food items, and then applies
+our Skewering-Position-Action network (SPANet) to choose a target food
+item and a corresponding action so that the bite acquisition success rate
+is maximized. SPANet also uses the surrounding environment features
+of food items to predict action success rates. We used this framework
+to perform multiple experiments on uncluttered and cluttered plates.
+Results indicate that our integrated system can successfully generalize

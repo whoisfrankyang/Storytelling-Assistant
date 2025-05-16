@@ -1,0 +1,9 @@
+1. The core issue tackled here is the challenge of robot-assisted feeding, specifically the robot's ability to learn how to manipulate a wide variety of food items, many of which it may not have been previously trained on. This problem affects individuals who rely on assistive technology for daily tasks like eating due to disability or old age. Difficulty with proper handling of food can lead to frustration and decreased independence.
+
+2. The project's novel solution is a modified linear contextual bandit framework that leverages post hoc context - information gathered during and after the manipulation of food. This helps the robot more rapidly adapt to handling new types of food than previous methods. The unique aspect of this solution is its use of post-action data to improve learning speed and reduce mistakes.
+
+3. The impact of this innovation is significant. In experiments, it demonstrated the ability to handle eight new types of food with 21% fewer failures across 64 attempts. This suggests potential for improved feeding assistance for individuals in need, enhancing their eating experience and overall independence.
+
+Finally, combining all these points:
+
+'''Facing the hurdle of teaching robots to handle unfamiliar food, our project innovates with a unique learning method. By using post-action data to boost learning speed and cut errors, robots can adapt faster when serving food. This method proved successful, handling eight new food types with 21% fewer mistakes. This breakthrough could significantly enhance the eating experience and autonomy for those relying on assistive technology.'''

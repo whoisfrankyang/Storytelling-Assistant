@@ -1,0 +1,3 @@
+Abstract: Learning from Experts: Improving Robot Learning with Continuous Feedback
+
+In simple terms, robots can learn tasks by imitating humans and asking for help when needed. However, some methods can make robots overconfident, not asking for help even when they don't fully understand the task. Our new approach allows robots to better judge when they are unsure and need more guidance. This method, called ConformalDAgger, uses a system to track how often a robot gets feedback. We tested ConformalDAgger and found that it helps robots learn new tasks faster by asking for more help when needed. This makes robots more effective learners, which can be useful in many areas of daily life.

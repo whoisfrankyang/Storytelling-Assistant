@@ -1,0 +1,3 @@
+Summary: "Code as Policies: Creating Robot Instructions Using Language Models"
+
+In simpler terms, this research is about teaching big computer programs, known as language models, to write instructions for robots. These programs can turn normal sentences into robot codes, which tell the robot what to do based on what they see or detect. For example, if you tell the robot to move "faster", the program can decide how fast that should be depending on the situation. These codes can also be used to set up rules for the robot to follow, like moving objects from one point to another. This method has been tested on real robots and has also helped solve about 40% of problems in a known challenge. You can see how it works through videos on their website.

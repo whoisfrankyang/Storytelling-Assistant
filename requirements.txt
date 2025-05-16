@@ -1,4 +1,10 @@
- arxiv 
- pandas
- tqdm
- openai
+arxiv 
+pandas
+tqdm
+openai
+tiktoken 
+numpy
+sklearn
+textstat
+nltk
+summ-eval

@@ -1,5 +1,5 @@
 from word_embedding import build_vector_database
-from rag import RAGSystem
+from ragcot import RAGSystem
 
 def main():
     # Step 1: Build the vector database from your text files
@@ -41,33 +41,62 @@ def main():
     experiments across a set of 4 in-the-wild food dishes.
     """
     
-    # Step 3: Generate different versions of your abstract
+    # Step 3: Generate different versions of your abstract with self-reflection
     
-    # General audience version
-    general_version = rag.generate_storytelling_output(
+    print("\n" + "="*50)
+    print("GENERATING GENERAL AUDIENCE VERSION")
+    print("="*50)
+    general_version, general_score, general_feedback = rag.generate_with_self_reflection(
         user_abstract=my_project,
         mode="general",
-        k=3  # number of relevant documents to consider
+        k=3,  # number of relevant documents to consider
+        threshold=7.0,  # minimum acceptable score
+        max_attempts=3  # maximum number of improvement attempts
     )
-    print("\n=== General Version ===")
-    print(general_version)
     
-    # Investor pitch version
-    investor_version = rag.generate_storytelling_output(
+    print("\n" + "="*50)
+    print("GENERATING INVESTOR PITCH VERSION")
+    print("="*50)
+    investor_version, investor_score, investor_feedback = rag.generate_with_self_reflection(
         user_abstract=my_project,
         mode="investor",
-        k=3
+        k=3,
+        threshold=7.0,
+        max_attempts=3
     )
-    print("\n=== Investor Pitch Version ===")
-    print(investor_version)
     
-    # Academic conference version
-    conference_version = rag.generate_storytelling_output(
+    print("\n" + "="*50)
+    print("GENERATING CONFERENCE ABSTRACT VERSION")
+    print("="*50)
+    conference_version, conference_score, conference_feedback = rag.generate_with_self_reflection(
         user_abstract=my_project,
         mode="conference",
-        k=3
+        k=3,
+        threshold=7.0,
+        max_attempts=3
     )
+    
+    # Print final results
+    print("\n" + "="*50)
+    print("FINAL RESULTS")
+    print("="*50)
+    
+    print("\n=== General Audience Version ===")
+    print(f"Final Score: {general_score:.1f}/10")
+    print(f"Feedback: {general_feedback}")
+    print("\nOutput:")
+    print(general_version)
+    
+    print("\n=== Investor Pitch Version ===")
+    print(f"Final Score: {investor_score:.1f}/10")
+    print(f"Feedback: {investor_feedback}")
+    print("\nOutput:")
+    print(investor_version)
+    
     print("\n=== Conference Abstract Version ===")
+    print(f"Final Score: {conference_score:.1f}/10")
+    print(f"Feedback: {conference_feedback}")
+    print("\nOutput:")
     print(conference_version)
 
 if __name__ == "__main__":

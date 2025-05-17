@@ -7,6 +7,7 @@ import ResultsDisplay from '../components/ResultsDisplay';
 export default function Home() {
   const [results, setResults] = useState<string>('');
   const [inputText, setInputText] = useState<string>('');
+  const [mode, setMode] = useState<string>('general');
 
   const handleFileUpload = async (file: File) => {
     // Here you can implement the file processing logic
@@ -14,8 +15,9 @@ export default function Home() {
     try {
       const formData = new FormData();
       formData.append('file', file);
+      formData.append('mode', mode);
   
-      const response = await fetch('http://localhost:5000/process', {
+      const response = await fetch('http://localhost:8000/process', {
         method: 'POST',
         body: formData,
       });
@@ -34,10 +36,10 @@ export default function Home() {
 
   const handleTextSubmit = async () => {
     try {
-      const response = await fetch('http://localhost:5000/run', {
+      const response = await fetch('http://localhost:8000/run', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ input_data: inputText }),
+        body: JSON.stringify({ input_data: inputText, mode }),
       });
 
       if (!response.ok) {
@@ -58,6 +60,20 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
           Storytelling Assistant
         </h1>
+        {/* Dropdown for version selection */}
+        <div className="flex justify-center mb-6">
+          <label className="mr-2 font-semibold text-gray-700" htmlFor="mode-select">Output Version:</label>
+          <select
+            id="mode-select"
+            className="border border-gray-300 rounded px-3 py-1"
+            value={mode}
+            onChange={e => setMode(e.target.value)}
+          >
+            <option value="general">General</option>
+            <option value="investor">Investor</option>
+            <option value="conference">Conference</option>
+          </select>
+        </div>
         {/* Top half: two columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {/* Left: File Upload */}

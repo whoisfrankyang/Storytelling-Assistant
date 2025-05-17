@@ -116,7 +116,7 @@ class RAGSystem:
                 4. Finally, outline the impact and the business potential. Call back to the problem and its size and impact, as well as explaining how your solution could be monetized.
                 Once all of these points are considered, combine the 4 steps together clearly  and concisely in a project pitch.
 
-                The final generated pitch should be quoted in ''' ''' and should be within 100 words."""
+                The final generated pitch should not be quoted in ''' ''' and should be within 100 words."""
             )
         elif mode == "conference":
             instruction = (

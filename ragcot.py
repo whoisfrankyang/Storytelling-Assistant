@@ -5,6 +5,7 @@ from typing import List, Tuple, Dict
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import json
+from scoring_model_inference import score_pitch
 
 # Load API key from .env
 load_dotenv()
@@ -170,60 +171,25 @@ class RAGSystem:
                 """
 
     def score_output(self, generated_text: str, user_abstract: str, mode: str) -> Tuple[float, str]:
-        """Evaluate the quality of the generated output and return a score and explanation."""
-        criteria = {
-            "general": """
-            1. Clarity and accessibility (is it easy to understand for a general audience?)
-            2. Accurate reflection of the original abstract's core message
-            3. Engaging storytelling and narrative flow
-            4. Appropriate length and conciseness
-            """,
-            "investor": """
-            1. Clear value proposition and market opportunity
-            2. Compelling business potential and scalability
-            3. Technical innovation and competitive advantage
-            4. Professional tone and investor-friendly language
-            """,
-            "conference": """
-            1. Technical accuracy and scientific rigor
-            2. Clear contribution to the field
-            3. Proper academic tone and terminology
-            4. Comprehensive coverage of methodology and results
-            """
-        }
-
-        reflection_prompt = f"""
-        You are an expert reviewer evaluating a rewritten abstract. Please assess the quality based on these criteria:
-        {criteria[mode]}
-
-        Original abstract:
-        {user_abstract}
-
-        Generated version:
-        {generated_text}
-
-        Provide a score from 0 to 10 and explain your reasoning briefly. Just output in JSON:
-        {{"score": <float>, "explanation": "<text>"}}
-        """
-
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": reflection_prompt}],
-            max_tokens=300,
-            temperature=0.3
-        )
+        """Evaluate the quality of the generated output using the scoring model."""
+        # Get scores from the scoring model
+        scores = score_pitch(user_abstract, generated_text)
         
-        try:
-            result = json.loads(response.choices[0].message.content.strip())
-            return result["score"], result["explanation"]
-        except:
-            return 0.0, "Error in scoring"
+        # sum up the scores 
+        avg_score = sum(scores.values())
+        
+        # Generate explanation based on scores
+        explanation = f"Scores: {', '.join(f'{k}: {v:.2f}' for k, v in scores.items())}"
+        
+        return avg_score, explanation
 
     def improve_output(self, generated_text: str, score: float, explanation: str, mode: str) -> str:
         """Attempt to improve the output based on the critique."""
         improvement_prompt = f"""
-        Your previous attempt received a score of {score}/10 with this feedback:
+        Your previous attempt score:
         {explanation}
+
+        Each score is on a scale from 1 to 5. The higher the score, the better the pitch.
 
         Please improve the text while addressing these points. Keep the same mode ({mode}) and maintain the core message.
         The improved version should be within 100 words.
@@ -245,14 +211,13 @@ class RAGSystem:
         return response.choices[0].message.content.strip()
 
     def generate_with_self_reflection(self, user_abstract: str, mode: str = "general", k: int = 5, 
-                                    threshold: float = 7.0, max_attempts: int = 3) -> Tuple[str, float, str]:
+                                    threshold: float = 15, max_attempts: int = 3) -> Tuple[str, float, str]:
         """Generate an output that passes self-reflection quality threshold."""
         best_score = 0.0
         best_output = ""
         best_explanation = ""
         
         print(f"\n=== Starting self-reflection for {mode} mode ===")
-        print(f"Quality threshold: {threshold}/10")
         print(f"Maximum attempts: {max_attempts}\n")
         
         for attempt in range(max_attempts):
@@ -266,13 +231,11 @@ class RAGSystem:
             print("Evaluating quality...")
             score, explanation = self.score_output(output, user_abstract, mode)
             print(f"Score: {score:.1f}/10")
-            print(f"Feedback: {explanation}")
             
             # Keep track of best result
             if score > best_score:
                 best_score = score
                 best_output = output
-                best_explanation = explanation
                 print("✓ New best version!")
             
             # If we meet the threshold, return immediately

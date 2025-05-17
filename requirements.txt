@@ -8,3 +8,4 @@ sklearn
 textstat
 nltk
 summ-eval
+transformers

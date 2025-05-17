@@ -2,12 +2,6 @@ from word_embedding import build_vector_database
 from ragcot import RAGSystem
 
 def main():
-    # Step 1: Build the vector database from your text files
-    # This only needs to be done once, or when you add new documents
-    # build_vector_database(folder_path="data", output_dir="db")
-    
-    # Step 2: Initialize the RAG system
-    # It will automatically load the pre-computed embeddings
     rag = RAGSystem()
     
     # Example project description/abstract

@@ -45,7 +45,6 @@ def build_vector_database(folder_path: str, output_dir: str, max_tokens: int = 2
             print(f"Skipping {filename}: {num_tokens} tokens (exceeds {max_tokens} limit)")
             continue
 
-        # Skip if already saved (based on content hash)
         doc_entry = {"filename": filename, "content": content}
         if doc_entry in documents:
             print(f"Skipping cached: {filename}")

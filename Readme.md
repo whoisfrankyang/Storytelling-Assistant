@@ -24,6 +24,7 @@ A powerful AI-powered tool that helps transform technical content into engaging 
   - Multiple generation attempts to achieve quality threshold
   - Maintains best version across attempts
 
+<img src="./demo.png" alt="Demo" width="600">
 ## Installation
 
 1. Clone the repository:

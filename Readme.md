@@ -1,6 +1,7 @@
 # Storytelling Assistant
 
 A powerful AI-powered tool that helps transform technical content into engaging narratives for different audiences. The system uses a combination of RAG (Retrieval-Augmented Generation) and a custom scoring model to generate and evaluate high-quality pitches.
+![Diagram](./diagram.png)
 
 ## Features
 
